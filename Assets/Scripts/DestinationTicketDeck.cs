@@ -65,111 +65,6 @@ public class DestinationTicketDeck : MonoBehaviour
 
         ticketDeck.AddTicket(athinaToAncoraTicket);
 
-        DestinationTicket ZurichToBudapestTicket = new DestinationTicket();
-        ZurichToBudapestTicket.CityA = "Zurich";
-        ZurichToBudapestTicket.CityB = "Budapest";
-        ZurichToBudapestTicket.Points = 6;
-
-        ticketDeck.AddTicket(ZurichToBudapestTicket);
-
-        DestinationTicket ZurichToBrindisiTicket = new DestinationTicket();
-        ZurichToBrindisiTicket.CityA = "Zurich";
-        ZurichToBrindisiTicket.CityB = "Brindisi";
-        ZurichToBrindisiTicket.Points = 6;
-
-        ticketDeck.AddTicket(ZurichToBrindisiTicket);
-
-        DestinationTicket ZurichToMadridTicket = new DestinationTicket();
-        ZurichToMadridTicket.CityA = "Zurich";
-        ZurichToMadridTicket.CityB = "Madrid";
-        ZurichToMadridTicket.Points = 8;
-
-        ticketDeck.AddTicket(ZurichToMadridTicket);
-
-        DestinationTicket ZacrabToBrindisiTicket = new DestinationTicket();
-        ZacrabToBrindisiTicket.CityA = "Zacrab";
-        ZacrabToBrindisiTicket.CityB = "Brindisi";
-        ZacrabToBrindisiTicket.Points = 6;
-
-        ticketDeck.AddTicket(ZacrabToBrindisiTicket);
-
-        DestinationTicket WeinToStockholmTicket = new DestinationTicket();
-        WeinToStockholmTicket.CityA = "Wein";
-        WeinToStockholmTicket.CityB = "Stockholm";
-        WeinToStockholmTicket.Points = 11;
-
-        ticketDeck.AddTicket(WeinToStockholmTicket);
-
-        DestinationTicket WeinToLondonTicket = new DestinationTicket();
-        WeinToLondonTicket.CityA = "Wein";
-        WeinToLondonTicket.CityB = "London";
-        WeinToLondonTicket.Points = 10;
-
-        ticketDeck.AddTicket(WeinToLondonTicket);
-
-        DestinationTicket SmyrnaToSofiaTicket = new DestinationTicket();
-        SmyrnaToSofiaTicket.CityA = "Smyrna";
-        SmyrnaToSofiaTicket.CityB = "Sofia";
-        SmyrnaToSofiaTicket.Points = 5;
-
-        ticketDeck.AddTicket(SmyrnaToSofiaTicket);
-
-        DestinationTicket SmolensktoWarsawTicket = new DestinationTicket();
-        SmolensktoWarsawTicket.CityA = "Smolensk";
-        SmolensktoWarsawTicket.CityB = "Sofia";
-        SmolensktoWarsawTicket.Points = 6;
-
-        ticketDeck.AddTicket(SmolensktoWarsawTicket);
-
-        DestinationTicket SmolenskToRostovTicket = new DestinationTicket();
-        SmolenskToRostovTicket.CityA = "Smolensk";
-        SmolenskToRostovTicket.CityB = "Rostov";
-        SmolenskToRostovTicket.Points = 8;
-
-        ticketDeck.AddTicket(SmolenskToRostovTicket);
-
-        DestinationTicket SmolenskToFrankfurt = new DestinationTicket();
-        SmolenskToFrankfurt.CityA = "Smolensk";
-        SmolenskToFrankfurt.CityB = "Rostov";
-        SmolenskToFrankfurt.Points = 13;
-
-        ticketDeck.AddTicket(SmolenskToFrankfurt);
-
-        DestinationTicket SarajevoToEevastapol = new DestinationTicket();
-        SarajevoToEevastapol.CityA = "Sarajevo";
-        SarajevoToEevastapol.CityB = "Eevastapol";
-        SarajevoToEevastapol.Points = 8;
-
-        ticketDeck.AddTicket(SarajevoToEevastapol);
-
-        DestinationTicket RicaToBucuresti = new DestinationTicket();
-        RicaToBucuresti.CityA = "Rica";
-        RicaToBucuresti.CityB = "Bucuresti";
-        RicaToBucuresti.Points = 10;
-
-        ticketDeck.AddTicket(RicaToBucuresti);
-
-        DestinationTicket ParisToZacrab = new DestinationTicket();
-        ParisToZacrab.CityA = "Paris";
-        ParisToZacrab.CityB = "Zacrab";
-        ParisToZacrab.Points = 7;
-
-        ticketDeck.AddTicket(ParisToZacrab);
-
-        DestinationTicket ParistoWein = new DestinationTicket();
-        ParistoWein.CityA = "Paris";
-        ParistoWein.CityB = "Wein";
-        ParistoWein.Points = 8;
-
-        ticketDeck.AddTicket(ParistoWein);
-
-        DestinationTicket ParistoEdinburgh = new DestinationTicket();
-        ParistoEdinburgh.CityA = "Paris";
-        ParistoEdinburgh.CityB = "Edinburgh";
-        ParistoEdinburgh.Points = 7;
-
-        ticketDeck.AddTicket(ParistoEdinburgh);
-
         DestinationTicket MadridToDieppe = new DestinationTicket();
         MadridToDieppe.CityA = "Madrid";
         MadridToDieppe.CityB = "Dieppe";
@@ -230,13 +125,6 @@ public class DestinationTicketDeck : MonoBehaviour
         ErzurumToRostov.Points = 5;
 
         ticketDeck.AddTicket(ErzurumToRostov);
-
-        DestinationTicket ErzurumToKobenhaven = new DestinationTicket();
-        ErzurumToKobenhaven.CityA = "Erzurum";
-        ErzurumToKobenhaven.CityB = "Kobenhaven";
-        ErzurumToKobenhaven.Points = 21;
-
-        ticketDeck.AddTicket(ErzurumToKobenhaven);
 
         DestinationTicket ConstantinopleToVenezia = new DestinationTicket();
         ConstantinopleToVenezia.CityA = "Constantinople";
@@ -315,12 +203,12 @@ public class DestinationTicketDeck : MonoBehaviour
 
         ticketDeck.AddTicket(BerlinToLondon);
 
-        DestinationTicket BerlinToBuccuresti = new DestinationTicket();
-        BerlinToBuccuresti.CityA = "Berlin";
-        BerlinToBuccuresti.CityB = "Buccuresti";
-        BerlinToBuccuresti.Points = 8;
+        DestinationTicket BerlinToBucuresti = new DestinationTicket();
+        BerlinToBucuresti.CityA = "Berlin";
+        BerlinToBucuresti.CityB = "Bucuresti";
+        BerlinToBucuresti.Points = 8;
 
-        ticketDeck.AddTicket(BerlinToBuccuresti);
+        ticketDeck.AddTicket(BerlinToBucuresti);
 
         DestinationTicket BarcelonaToMunchen = new DestinationTicket();
         BarcelonaToMunchen.CityA = "Barcelona";

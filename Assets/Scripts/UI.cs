@@ -9,6 +9,7 @@ public class UI : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject winScreen;
     public GameObject colorSelect;
+    public GameObject Rules;
     public Text winText;
 
     public Text player1ColorText;
@@ -19,6 +20,7 @@ public class UI : MonoBehaviour
     public Button quitButton;
     public Button resumeButton;
     public Button winExitButton;
+    public Button NextButton;
 
     private bool isGamePaused = false;
     private bool isGameStarted = false;
@@ -40,6 +42,7 @@ public class UI : MonoBehaviour
         quitButton.onClick.AddListener(QuitGame);
         resumeButton.onClick.AddListener(ResumeGame);
         winExitButton.onClick.AddListener(ExitGame);
+        NextButton.onClick.AddListener(HideRules);
 
         HidePauseMenu();
         HideWinScreen();
@@ -124,6 +127,12 @@ public class UI : MonoBehaviour
     {
         winScreen.SetActive(false);
     }
+
+    private void HideRules()
+    {
+        HideRules();
+    }
+
 
     private void OnColorButtonClicked(string color)
     {
