@@ -8,14 +8,7 @@ public class GenericRoutes : MonoBehaviour
 
     private void Start()
     {
-        // Count the number of train cards of the specified color as children of this game object
-        foreach (Transform child in transform)
-        {
-            if (child.CompareTag(trainCardColor + "TrainCard"))
-            {
-                trainCardCount++;
-            }
-        }
+      
     }
 
     public void SelectRoute()

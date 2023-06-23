@@ -6,6 +6,15 @@ TagManager:
   tags:
   - TrainCardPosition
   - TrainCar
+  - BlackTrainCard
+  - BlueTrainCard
+  - PurpleTrainCard
+  - WhiteTrainCard
+  - YellowTrainCard
+  - OrangeTrainCard
+  - RedTrainCard
+  - GreenTrainCard
+  - RainbowTrainCard
   layers:
   - Default
   - TransparentFX

@@ -1,7 +1,7 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class UI : MonoBehaviour
 {
@@ -34,6 +34,8 @@ public class UI : MonoBehaviour
     private List<string> availableColors;
     private string player1Color;
     private string player2Color;
+
+    private bool isSpaceBarPressed = false; // New variable to track space bar input
 
     private void Start()
     {
@@ -193,7 +195,17 @@ public class UI : MonoBehaviour
                 ShowWinScreen();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            isSpaceBarPressed = true;
+        }
+
+        if (isSpaceBarPressed)
+        {
+            PauseGame();
+            ShowPauseMenu();
+            isSpaceBarPressed = false;
+        }
     }
 }
-
-
