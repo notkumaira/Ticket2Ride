@@ -130,9 +130,8 @@ public class UI : MonoBehaviour
 
     private void HideRules()
     {
-        HideRules();
+        Rules.SetActive(false);
     }
-
 
     private void OnColorButtonClicked(string color)
     {
