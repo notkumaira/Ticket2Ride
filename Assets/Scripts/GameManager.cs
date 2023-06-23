@@ -18,8 +18,9 @@ public class GameManager : MonoBehaviour
         playerManager = playerManagerObj.AddComponent<PlayerManager>();
 
         // Create player 1 and assign player scene 0
-        CreatePlayer(0, "PlayerScene0", playerManagerObj);
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("PlayerScene0"));
+        CreatePlayer(0, "Scene0", playerManagerObj);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Scene0"));
+
 
         // Create player 2 and assign player scene 1
         CreatePlayer(1, "PlayerScene1", playerManagerObj);
