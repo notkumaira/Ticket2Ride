@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TicketToRide.unity
     guid: a5dca771001bee146a12c4e4d55d983d
-  - enabled: 1
-    path: Assets/Scenes/TicketToRide.unity
-    guid: c423baaf461ff0648ba371db88529c8d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Scene0.unity
     guid: f3fbbb50c77774f48a5c8fa7df224022
