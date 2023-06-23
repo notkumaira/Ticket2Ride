@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class TrainCardDeck : MonoBehaviour
 {
@@ -18,8 +17,6 @@ public class TrainCardDeck : MonoBehaviour
     public List<Transform> cardPositions;
     public List<Transform> trainCardHandPositions;
 
-    public Button trainDeckButton; // Reference to the trainDeck button
-
     private List<GameObject> deck;
     private List<GameObject> trainCardHand;
     private int currentCardIndex;
@@ -30,8 +27,6 @@ public class TrainCardDeck : MonoBehaviour
         ShuffleDeck();
         MoveCardsToPositions();
         trainCardHand = new List<GameObject>();
-
-        trainDeckButton.onClick.AddListener(MoveRandomCardToHand); // Add an OnClick listener to the trainDeck button
     }
 
     private void InitializeDeck()
@@ -85,71 +80,30 @@ public class TrainCardDeck : MonoBehaviour
         }
     }
 
-    private void MoveRandomCardToHand()
-    {
-        if (currentCardIndex >= deck.Count)
-            return;
-
-        int randomIndex = Random.Range(currentCardIndex, deck.Count);
-        GameObject randomCard = deck[randomIndex];
-        deck[randomIndex] = deck[currentCardIndex];
-        deck[currentCardIndex] = randomCard;
-
-        MoveCardToAvailableHandPosition(randomCard);
-    }
-
-    public void MoveCardToAvailableHandPosition(GameObject card)
-    {
-        for (int i = 0; i < trainCardHandPositions.Count; i++)
-        {
-            if (trainCardHand.Count >= trainCardHandPositions.Count)
-                return;
-
-            if (!IsPositionOccupied(trainCardHandPositions[i]))
-            {
-                trainCardHand.Add(card);
-                card.transform.position = trainCardHandPositions[i].position;
-                currentCardIndex++;
-                return;
-            }
-        }
-    }
-
-    private bool IsPositionOccupied(Transform position)
-    {
-        foreach (GameObject card in trainCardHand)
-        {
-            if (card.transform.position == position.position)
-                return true;
-        }
-        return false;
-    }
-
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null)
+            if (hit.collider != null && deck.Contains(hit.collider.gameObject))
             {
                 GameObject clickedCard = hit.collider.gameObject;
-
-                if (trainCardHand.Contains(clickedCard))
-                {
-                    MoveCardToDeck(clickedCard);
-                }
+                MoveCardToHandPosition(clickedCard);
             }
         }
     }
 
-    public void MoveCardToDeck(GameObject card)
+    public void MoveCardToHandPosition(GameObject card)
     {
-        if (trainCardHand.Contains(card))
-        {
-            trainCardHand.Remove(card);
-            card.transform.position = cardPositions[currentCardIndex].position;
-            currentCardIndex--;
-        }
+        if (currentCardIndex >= deck.Count)
+            return;
+
+        if (trainCardHand.Count >= trainCardHandPositions.Count)
+            return;
+
+        trainCardHand.Add(card);
+        card.transform.position = trainCardHandPositions[trainCardHand.Count - 1].position;
+        currentCardIndex++;
     }
 
 
