@@ -437,6 +437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 31064676}
+  - component: {fileID: 31064677}
   m_Layer: 0
   m_Name: Dieppe Brux
   m_TagString: Untagged
@@ -461,6 +462,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &31064677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31064675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7937a254dd74f4eb9c6fc4e6e66a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &33523431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,6 +1432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 73772359}
+  - component: {fileID: 73772360}
   m_Layer: 0
   m_Name: Amsterdam Frankfurt
   m_TagString: Untagged
@@ -1443,6 +1457,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &73772360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73772358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217ea4491e240fb43925fe8ddbb5fa47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &78299219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,6 +1728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 84099463}
+  - component: {fileID: 84099464}
   m_Layer: 0
   m_Name: Kyiv Bucuresti
   m_TagString: Untagged
@@ -1728,6 +1755,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &84099464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84099462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &84485094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +1898,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 85584797}
+  - component: {fileID: 85584798}
   m_Layer: 0
   m_Name: Smyrna Constantinople
   m_TagString: Untagged
@@ -1882,6 +1923,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &85584798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85584796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &86940162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,6 +2177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 108844310}
+  - component: {fileID: 108844311}
   m_Layer: 0
   m_Name: Paris Pampelona Twin
   m_TagString: Untagged
@@ -2149,6 +2204,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &108844311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108844309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ccc669416ee1438640f5d3ef3d960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &115284934
 GameObject:
   m_ObjectHideFlags: 0
@@ -2332,6 +2399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 146287154}
+  - component: {fileID: 146287155}
   m_Layer: 0
   m_Name: Frankfurt Berlin
   m_TagString: Untagged
@@ -2357,6 +2425,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &146287155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146287153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1cf0d3cc63f1a42a6e450f82b0824f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &148559652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2782,6 +2862,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 209049711}
+  - component: {fileID: 209049712}
   m_Layer: 0
   m_Name: Kyiv Budapest
   m_TagString: Untagged
@@ -2810,6 +2891,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &209049712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209049710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &212063339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,6 +3167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 233102769}
+  - component: {fileID: 233102770}
   m_Layer: 0
   m_Name: Zurich Munchen
   m_TagString: Untagged
@@ -3097,6 +3192,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &233102770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233102768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627fc65431657824aa94d061d81be322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &233515081
 GameObject:
   m_ObjectHideFlags: 0
@@ -4410,6 +4517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 324785730}
+  - component: {fileID: 324785731}
   m_Layer: 0
   m_Name: Moskva Kharkov
   m_TagString: Untagged
@@ -4436,6 +4544,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &324785731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324785729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &329148537
 GameObject:
   m_ObjectHideFlags: 0
@@ -5052,6 +5173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 342224889}
+  - component: {fileID: 342224890}
   m_Layer: 0
   m_Name: Zurich Paris
   m_TagString: Untagged
@@ -5077,6 +5199,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &342224890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342224888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &344454809
 GameObject:
   m_ObjectHideFlags: 0
@@ -5646,6 +5781,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 358280757}
+  - component: {fileID: 358280758}
   m_Layer: 0
   m_Name: Wein Munchen
   m_TagString: Untagged
@@ -5671,6 +5807,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &358280758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358280756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43648e2c25af2d44582193294e57b67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &361489593
 GameObject:
   m_ObjectHideFlags: 0
@@ -5944,6 +6092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 387946485}
+  - component: {fileID: 387946486}
   m_Layer: 0
   m_Name: Stockholm Petrograd
   m_TagString: Untagged
@@ -5974,6 +6123,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &387946486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387946484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &405398904
 GameObject:
   m_ObjectHideFlags: 0
@@ -6290,6 +6452,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 416930654}
+  - component: {fileID: 416930655}
   m_Layer: 0
   m_Name: London Edinburgh Twin
   m_TagString: Untagged
@@ -6316,6 +6479,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &416930655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416930653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43648e2c25af2d44582193294e57b67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &422408472
 GameObject:
   m_ObjectHideFlags: 0
@@ -6325,6 +6500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422408473}
+  - component: {fileID: 422408474}
   m_Layer: 0
   m_Name: Paris Marseille
   m_TagString: Untagged
@@ -6351,6 +6527,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &422408474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422408472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &429405159
 GameObject:
   m_ObjectHideFlags: 0
@@ -6587,6 +6776,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 439328800}
+  - component: {fileID: 439328801}
   m_Layer: 0
   m_Name: Essen Kobenhaven Twin
   m_TagString: Untagged
@@ -6612,6 +6802,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &439328801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439328799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &439641394
 GameObject:
   m_ObjectHideFlags: 0
@@ -7036,6 +7239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 455216262}
+  - component: {fileID: 455216263}
   m_Layer: 0
   m_Name: Rostov Sochi
   m_TagString: Untagged
@@ -7060,6 +7264,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &455216263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455216261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &455462760
 GameObject:
   m_ObjectHideFlags: 0
@@ -7197,6 +7414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 468125878}
   - component: {fileID: 468125879}
+  - component: {fileID: 468125880}
   m_Layer: 0
   m_Name: Barcelona Pampelona
   m_TagString: Untagged
@@ -7246,6 +7464,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &468125880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468125877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &471014699
 GameObject:
   m_ObjectHideFlags: 0
@@ -7255,6 +7486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 471014700}
+  - component: {fileID: 471014701}
   m_Layer: 0
   m_Name: Sarajevo Sofia
   m_TagString: Untagged
@@ -7279,6 +7511,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &471014701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471014699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &474268105
 GameObject:
   m_ObjectHideFlags: 0
@@ -7288,6 +7533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 474268106}
+  - component: {fileID: 474268107}
   m_Layer: 0
   m_Name: Petrograd Wilno
   m_TagString: Untagged
@@ -7314,6 +7560,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &474268107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474268105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ccc669416ee1438640f5d3ef3d960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &481895562
 GameObject:
   m_ObjectHideFlags: 0
@@ -7324,6 +7582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 481895563}
   - component: {fileID: 481895564}
+  - component: {fileID: 481895565}
   m_Layer: 0
   m_Name: Pallermo Brindisi
   m_TagString: Untagged
@@ -7374,6 +7633,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &481895565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481895562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &485813887
 GameObject:
   m_ObjectHideFlags: 0
@@ -7393,7 +7665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &485813888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8642,6 +8914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 548403341}
   - component: {fileID: 548403342}
+  - component: {fileID: 548403343}
   m_Layer: 0
   m_Name: Barcelona Marseille
   m_TagString: Untagged
@@ -8693,6 +8966,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &548403343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548403340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &550140895
 GameObject:
   m_ObjectHideFlags: 0
@@ -8934,6 +9220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 560876001}
+  - component: {fileID: 560876002}
   m_Layer: 0
   m_Name: Venezia Munchen
   m_TagString: Untagged
@@ -8958,6 +9245,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560876002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560876000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ccc669416ee1438640f5d3ef3d960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &565795253
 GameObject:
   m_ObjectHideFlags: 0
@@ -9083,6 +9382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 572669030}
+  - component: {fileID: 572669031}
   m_Layer: 0
   m_Name: Sochi Erzurum
   m_TagString: Untagged
@@ -9108,6 +9408,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572669031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572669029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1cf0d3cc63f1a42a6e450f82b0824f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &574736377
 GameObject:
   m_ObjectHideFlags: 0
@@ -9485,6 +9797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 593421136}
+  - component: {fileID: 593421137}
   m_Layer: 0
   m_Name: Bucuresti Eevastopol
   m_TagString: Untagged
@@ -9511,6 +9824,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &593421137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593421135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217ea4491e240fb43925fe8ddbb5fa47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &593764682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9641,6 +9966,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 607619114}
+  - component: {fileID: 607619115}
   m_Layer: 0
   m_Name: Zurich Marseille
   m_TagString: Untagged
@@ -9665,6 +9991,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &607619115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607619113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cb981ef98b2ad43909799b52806271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &607782404
 GameObject:
   m_ObjectHideFlags: 0
@@ -9870,6 +10208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 619678184}
+  - component: {fileID: 619678185}
   m_Layer: 0
   m_Name: Brest Pampelona
   m_TagString: Untagged
@@ -9896,6 +10235,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &619678185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619678183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cb981ef98b2ad43909799b52806271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &624208675
 GameObject:
   m_ObjectHideFlags: 0
@@ -9905,6 +10256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 624208676}
+  - component: {fileID: 624208677}
   m_Layer: 0
   m_Name: Madrid Lisboa
   m_TagString: Untagged
@@ -9930,6 +10282,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &624208677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624208675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cb981ef98b2ad43909799b52806271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &636617379
 GameObject:
   m_ObjectHideFlags: 0
@@ -10214,6 +10578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 669352556}
+  - component: {fileID: 669352557}
   m_Layer: 0
   m_Name: Essen Berlin
   m_TagString: Untagged
@@ -10238,6 +10603,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &669352557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669352555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ccc669416ee1438640f5d3ef3d960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &670652775
 GameObject:
   m_ObjectHideFlags: 0
@@ -10305,6 +10682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 671240515}
+  - component: {fileID: 671240516}
   m_Layer: 0
   m_Name: Cadiz Madrid
   m_TagString: Untagged
@@ -10330,6 +10708,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &671240516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671240514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43648e2c25af2d44582193294e57b67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &674988673
 GameObject:
   m_ObjectHideFlags: 0
@@ -10687,6 +11077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 695992227}
+  - component: {fileID: 695992228}
   m_Layer: 0
   m_Name: Dieppe London Twin
   m_TagString: Untagged
@@ -10711,6 +11102,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &695992228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695992226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &698370717
 GameObject:
   m_ObjectHideFlags: 0
@@ -10721,6 +11125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 698370718}
   - component: {fileID: 698370719}
+  - component: {fileID: 698370720}
   m_Layer: 0
   m_Name: Marseille Roma
   m_TagString: Untagged
@@ -10772,6 +11177,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &698370720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698370717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &705496979
 GameObject:
   m_ObjectHideFlags: 0
@@ -10840,6 +11258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 710444171}
   - component: {fileID: 710444172}
+  - component: {fileID: 710444173}
   m_Layer: 0
   m_Name: Pallermo Smyrna
   m_TagString: Untagged
@@ -10893,6 +11312,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &710444173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710444170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &711466038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11145,6 +11577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 720006163}
+  - component: {fileID: 720006164}
   m_Layer: 0
   m_Name: Sarajevo Budapest
   m_TagString: Untagged
@@ -11170,6 +11603,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &720006164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720006162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cb981ef98b2ad43909799b52806271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &722598775
 GameObject:
   m_ObjectHideFlags: 0
@@ -11464,6 +11909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 727166376}
+  - component: {fileID: 727166377}
   m_Layer: 0
   m_Name: Erzurum Ancora
   m_TagString: Untagged
@@ -11489,6 +11935,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &727166377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727166375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &727185926
 GameObject:
   m_ObjectHideFlags: 0
@@ -11758,6 +12216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 734966026}
+  - component: {fileID: 734966027}
   m_Layer: 0
   m_Name: Brest Dieppe
   m_TagString: Untagged
@@ -11782,6 +12241,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &734966027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734966025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43648e2c25af2d44582193294e57b67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &735623969
 GameObject:
   m_ObjectHideFlags: 0
@@ -11976,6 +12447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 741314404}
+  - component: {fileID: 741314405}
   m_Layer: 0
   m_Name: Berlin Warsaw
   m_TagString: Untagged
@@ -12002,6 +12474,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &741314405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741314403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cb981ef98b2ad43909799b52806271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &742316456
 GameObject:
   m_ObjectHideFlags: 0
@@ -12011,6 +12495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 742316457}
+  - component: {fileID: 742316458}
   m_Layer: 0
   m_Name: Zacrab Budapest
   m_TagString: Untagged
@@ -12035,6 +12520,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &742316458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742316456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43648e2c25af2d44582193294e57b67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &749283367
 GameObject:
   m_ObjectHideFlags: 0
@@ -12507,6 +13004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 767976230}
+  - component: {fileID: 767976231}
   m_Layer: 0
   m_Name: Wilno Kyiv
   m_TagString: Untagged
@@ -12531,6 +13029,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &767976231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767976229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &782729619
 GameObject:
   m_ObjectHideFlags: 0
@@ -13257,6 +13768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811073646}
+  - component: {fileID: 811073647}
   m_Layer: 0
   m_Name: Sochi Eevastopol
   m_TagString: Untagged
@@ -13281,6 +13793,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &811073647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811073645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &811319939
 GameObject:
   m_ObjectHideFlags: 0
@@ -13290,6 +13815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811319940}
+  - component: {fileID: 811319941}
   m_Layer: 0
   m_Name: Paris Brux Twin
   m_TagString: Untagged
@@ -13314,6 +13840,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &811319941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811319939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627fc65431657824aa94d061d81be322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &812267258
 GameObject:
   m_ObjectHideFlags: 0
@@ -13566,6 +14104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 815051114}
+  - component: {fileID: 815051115}
   m_Layer: 0
   m_Name: Pampelona Madrid Twin
   m_TagString: Untagged
@@ -13591,6 +14130,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &815051115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815051113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217ea4491e240fb43925fe8ddbb5fa47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &825998435
 GameObject:
   m_ObjectHideFlags: 0
@@ -13727,6 +14278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 826218207}
+  - component: {fileID: 826218208}
   m_Layer: 0
   m_Name: Sofia Constantinople
   m_TagString: Untagged
@@ -13752,6 +14304,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &826218208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826218206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ccc669416ee1438640f5d3ef3d960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &828858954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7321112321872940973, guid: 5be8548b99c0f9a42b711b3b305517a1, type: 3}
@@ -14110,6 +14674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 838993744}
+  - component: {fileID: 838993745}
   m_Layer: 0
   m_Name: Sarajevo Zacrab
   m_TagString: Untagged
@@ -14135,6 +14700,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &838993745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838993743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1cf0d3cc63f1a42a6e450f82b0824f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &840311309
 GameObject:
   m_ObjectHideFlags: 0
@@ -14387,6 +14964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 850278118}
+  - component: {fileID: 850278119}
   m_Layer: 0
   m_Name: Dieppe London
   m_TagString: Untagged
@@ -14411,6 +14989,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &850278119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850278117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &862303038
 GameObject:
   m_ObjectHideFlags: 0
@@ -14827,6 +15418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 886354312}
+  - component: {fileID: 886354313}
   m_Layer: 0
   m_Name: Rica Wilno
   m_TagString: Untagged
@@ -14853,6 +15445,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &886354313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886354311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7937a254dd74f4eb9c6fc4e6e66a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &892337316
 GameObject:
   m_ObjectHideFlags: 0
@@ -15031,6 +15635,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 895510796}
+  - component: {fileID: 895510797}
   m_Layer: 0
   m_Name: Bucuresti Sofia
   m_TagString: Untagged
@@ -15055,6 +15660,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &895510797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895510795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &899044820
 GameObject:
   m_ObjectHideFlags: 0
@@ -15302,6 +15920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 904854928}
+  - component: {fileID: 904854929}
   m_Layer: 0
   m_Name: Moskva Smolensk
   m_TagString: Untagged
@@ -15326,6 +15945,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &904854929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904854927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43648e2c25af2d44582193294e57b67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &906972243
 GameObject:
   m_ObjectHideFlags: 0
@@ -15335,6 +15966,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 906972244}
+  - component: {fileID: 906972245}
   m_Layer: 0
   m_Name: Essen Frankfurt
   m_TagString: Untagged
@@ -15359,6 +15991,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &906972245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906972243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7937a254dd74f4eb9c6fc4e6e66a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &907074711
 GameObject:
   m_ObjectHideFlags: 0
@@ -15553,6 +16197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 909823453}
+  - component: {fileID: 909823454}
   m_Layer: 0
   m_Name: Essen Kobenhaven
   m_TagString: Untagged
@@ -15578,6 +16223,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &909823454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909823452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &910638500
 GameObject:
   m_ObjectHideFlags: 0
@@ -16600,6 +17258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 943633343}
+  - component: {fileID: 943633344}
   m_Layer: 0
   m_Name: Paris Frankfurt
   m_TagString: Untagged
@@ -16625,6 +17284,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &943633344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943633342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43648e2c25af2d44582193294e57b67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &948840089
 GameObject:
   m_ObjectHideFlags: 0
@@ -17726,6 +18397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1031443079}
+  - component: {fileID: 1031443080}
   m_Layer: 0
   m_Name: Danzic Rica
   m_TagString: Untagged
@@ -17751,6 +18423,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1031443080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1039192552
 GameObject:
   m_ObjectHideFlags: 0
@@ -17876,6 +18560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1044498669}
+  - component: {fileID: 1044498670}
   m_Layer: 0
   m_Name: Brest Paris
   m_TagString: Untagged
@@ -17901,6 +18586,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1044498670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044498668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1048467215
 GameObject:
   m_ObjectHideFlags: 0
@@ -17910,6 +18607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048467216}
+  - component: {fileID: 1048467217}
   m_Layer: 0
   m_Name: London Amsterdam
   m_TagString: Untagged
@@ -17934,6 +18632,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1048467217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048467215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1051742141
 GameObject:
   m_ObjectHideFlags: 0
@@ -18995,6 +19706,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1126495765}
+  - component: {fileID: 1126495766}
   m_Layer: 0
   m_Name: Warsaw Wilno
   m_TagString: Untagged
@@ -19020,6 +19732,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1126495766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126495764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1cf0d3cc63f1a42a6e450f82b0824f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1129058571
 GameObject:
   m_ObjectHideFlags: 0
@@ -19628,6 +20352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1165988603}
+  - component: {fileID: 1165988604}
   m_Layer: 0
   m_Name: Pampelona Madrid
   m_TagString: Untagged
@@ -19653,6 +20378,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1165988604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165988602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1170128074
 GameObject:
   m_ObjectHideFlags: 0
@@ -20026,6 +20763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1185601107}
+  - component: {fileID: 1185601108}
   m_Layer: 0
   m_Name: Wein Zacrab
   m_TagString: Untagged
@@ -20050,6 +20788,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1185601108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185601106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1186283880
 GameObject:
   m_ObjectHideFlags: 0
@@ -20772,6 +21523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1214471842}
+  - component: {fileID: 1214471843}
   m_Layer: 0
   m_Name: Paris Pampelona
   m_TagString: Untagged
@@ -20798,6 +21550,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1214471843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214471841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7937a254dd74f4eb9c6fc4e6e66a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1215119971
 GameObject:
   m_ObjectHideFlags: 0
@@ -21444,6 +22208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1265104884}
+  - component: {fileID: 1265104885}
   m_Layer: 0
   m_Name: London Edinburgh
   m_TagString: Untagged
@@ -21470,6 +22235,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1265104885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265104883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1268210465
 GameObject:
   m_ObjectHideFlags: 0
@@ -22159,6 +22936,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1302184445}
+  - component: {fileID: 1302184446}
   m_Layer: 0
   m_Name: Paris Frankfurt Twin
   m_TagString: Untagged
@@ -22184,6 +22962,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1302184446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302184444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217ea4491e240fb43925fe8ddbb5fa47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1306098822
 GameObject:
   m_ObjectHideFlags: 0
@@ -23270,6 +24060,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1374016443}
+  - component: {fileID: 1374016444}
   m_Layer: 0
   m_Name: FrankFurt Berlin Twin
   m_TagString: Untagged
@@ -23295,6 +24086,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1374016444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374016442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1376532182
 GameObject:
   m_ObjectHideFlags: 0
@@ -23305,6 +24108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1376532183}
   - component: {fileID: 1376532184}
+  - component: {fileID: 1376532185}
   m_Layer: 0
   m_Name: Wein Budapest
   m_TagString: Untagged
@@ -23353,6 +24157,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1376532185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376532182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1cf0d3cc63f1a42a6e450f82b0824f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1379050510
 GameObject:
   m_ObjectHideFlags: 0
@@ -23831,6 +24647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1409566280}
+  - component: {fileID: 1409566281}
   m_Layer: 0
   m_Name: Eevastopol Erzurum
   m_TagString: Untagged
@@ -23856,6 +24673,67 @@ Transform:
   - {fileID: 1578309137}
   m_Father: {fileID: 494906846}
   m_RootOrder: 69
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1409566281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409566279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
+--- !u!1 &1409626702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409626704}
+  - component: {fileID: 1409626703}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1409626703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409626702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb1f8204bc22cc44871a969f966dc9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1TrainCards: []
+  player2TrainCards: []
+  player1DestinationTickets: []
+  player2DestinationTickets: []
+--- !u!4 &1409626704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409626702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1411384049
 GameObject:
@@ -24458,6 +25336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1429450606}
+  - component: {fileID: 1429450607}
   m_Layer: 0
   m_Name: Frankfurt Munchen
   m_TagString: Untagged
@@ -24482,6 +25361,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1429450607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429450605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cb981ef98b2ad43909799b52806271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1438275081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
@@ -24738,6 +25629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1455076544}
+  - component: {fileID: 1455076545}
   m_Layer: 0
   m_Name: Marseille Pampelona
   m_TagString: Untagged
@@ -24764,6 +25656,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1455076545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455076543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1cf0d3cc63f1a42a6e450f82b0824f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1460271213
 GameObject:
   m_ObjectHideFlags: 0
@@ -25549,6 +26453,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1483110312}
+  - component: {fileID: 1483110313}
   m_Layer: 0
   m_Name: Paris Brux
   m_TagString: Untagged
@@ -25573,6 +26478,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1483110313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483110311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1cf0d3cc63f1a42a6e450f82b0824f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1484460622
 GameObject:
   m_ObjectHideFlags: 0
@@ -25640,6 +26557,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1486274415}
+  - component: {fileID: 1486274416}
   m_Layer: 0
   m_Name: Berlin Wein
   m_TagString: Untagged
@@ -25665,6 +26583,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1486274416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486274414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7937a254dd74f4eb9c6fc4e6e66a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1496522819
 GameObject:
   m_ObjectHideFlags: 0
@@ -25674,6 +26604,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1496522820}
+  - component: {fileID: 1496522821}
   m_Layer: 0
   m_Name: Petrograd Moskva
   m_TagString: Untagged
@@ -25700,6 +26631,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1496522821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496522819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217ea4491e240fb43925fe8ddbb5fa47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1499552760
 GameObject:
   m_ObjectHideFlags: 0
@@ -26269,6 +27212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1530657484}
+  - component: {fileID: 1530657485}
   m_Layer: 0
   m_Name: Warsaw Kyiv
   m_TagString: Untagged
@@ -26295,6 +27239,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1530657485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530657483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1564666623
 GameObject:
   m_ObjectHideFlags: 0
@@ -26304,6 +27261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1564666624}
+  - component: {fileID: 1564666625}
   m_Layer: 0
   m_Name: Brindisi Roma
   m_TagString: Untagged
@@ -26328,6 +27286,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1564666625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564666623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217ea4491e240fb43925fe8ddbb5fa47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1565819975
 GameObject:
   m_ObjectHideFlags: 0
@@ -26522,6 +27492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1577023178}
+  - component: {fileID: 1577023179}
   m_Layer: 0
   m_Name: Danzic Warsaw
   m_TagString: Untagged
@@ -26546,6 +27517,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1577023179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577023177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1578309136
 GameObject:
   m_ObjectHideFlags: 0
@@ -26614,6 +27598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1586436042}
   - component: {fileID: 1586436043}
+  - component: {fileID: 1586436044}
   m_Layer: 0
   m_Name: Brux Amsterdam
   m_TagString: Untagged
@@ -26662,6 +27647,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1586436044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586436041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1587912237
 GameObject:
   m_ObjectHideFlags: 0
@@ -26787,6 +27784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1599725415}
+  - component: {fileID: 1599725416}
   m_Layer: 0
   m_Name: Kharkov Rostov
   m_TagString: Untagged
@@ -26811,6 +27809,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1599725416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599725414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7937a254dd74f4eb9c6fc4e6e66a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1600123835
 GameObject:
   m_ObjectHideFlags: 0
@@ -27190,6 +28200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1608804979}
+  - component: {fileID: 1608804980}
   m_Layer: 0
   m_Name: Wilno Smolensk
   m_TagString: Untagged
@@ -27215,6 +28226,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1608804980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608804978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627fc65431657824aa94d061d81be322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1611006573
 GameObject:
   m_ObjectHideFlags: 0
@@ -27815,6 +28838,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1642403271}
+  - component: {fileID: 1642403272}
   m_Layer: 0
   m_Name: Smolensk Kyiv
   m_TagString: Untagged
@@ -27840,6 +28864,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1642403272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642403270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1cf0d3cc63f1a42a6e450f82b0824f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1651375746
 GameObject:
   m_ObjectHideFlags: 0
@@ -27965,6 +29001,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1656160347}
+  - component: {fileID: 1656160348}
   m_Layer: 0
   m_Name: Cadiz Lisboa
   m_TagString: Untagged
@@ -27989,6 +29026,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1656160348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656160346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ccc669416ee1438640f5d3ef3d960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1656601576
 GameObject:
   m_ObjectHideFlags: 0
@@ -28891,6 +29940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1697760367}
   - component: {fileID: 1697760368}
+  - component: {fileID: 1697760369}
   m_Layer: 0
   m_Name: Dieppe Paris
   m_TagString: Untagged
@@ -28939,6 +29989,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1697760369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697760366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cb981ef98b2ad43909799b52806271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1698512898
 GameObject:
   m_ObjectHideFlags: 0
@@ -29677,6 +30739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1720332474}
   - component: {fileID: 1720332475}
+  - component: {fileID: 1720332476}
   m_Layer: 0
   m_Name: Athina Sarajevo
   m_TagString: Untagged
@@ -29726,6 +30789,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1720332476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720332473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7937a254dd74f4eb9c6fc4e6e66a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1723423856
 GameObject:
   m_ObjectHideFlags: 0
@@ -29736,6 +30811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1723423857}
   - component: {fileID: 1723423858}
+  - component: {fileID: 1723423859}
   m_Layer: 0
   m_Name: Wein Budapest Twin
   m_TagString: Untagged
@@ -29784,6 +30860,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1723423859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723423856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217ea4491e240fb43925fe8ddbb5fa47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1726722322
 GameObject:
   m_ObjectHideFlags: 0
@@ -29990,6 +31078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1742961791}
+  - component: {fileID: 1742961792}
   m_Layer: 0
   m_Name: Kobenhaven Stockholm Twin
   m_TagString: Untagged
@@ -30015,6 +31104,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1742961792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742961790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217ea4491e240fb43925fe8ddbb5fa47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1743564847
 GameObject:
   m_ObjectHideFlags: 0
@@ -30025,6 +31126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1743564848}
   - component: {fileID: 1743564849}
+  - component: {fileID: 1743564850}
   m_Layer: 0
   m_Name: Brindisi Athina
   m_TagString: Untagged
@@ -30076,6 +31178,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1743564850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743564847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1747219851
 GameObject:
   m_ObjectHideFlags: 0
@@ -30576,6 +31691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1774769559}
+  - component: {fileID: 1774769560}
   m_Layer: 0
   m_Name: Budapest Bucuresti
   m_TagString: Untagged
@@ -30602,6 +31718,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1774769560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774769558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1776219332
 GameObject:
   m_ObjectHideFlags: 0
@@ -32158,6 +33287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1841437022}
   - component: {fileID: 1841437023}
+  - component: {fileID: 1841437024}
   m_Layer: 0
   m_Name: Roma Pallermo
   m_TagString: Untagged
@@ -32209,6 +33339,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1841437024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841437021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1842332051
 GameObject:
   m_ObjectHideFlags: 0
@@ -32218,6 +33361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1842332052}
+  - component: {fileID: 1842332053}
   m_Layer: 0
   m_Name: Athina Smyrna
   m_TagString: Untagged
@@ -32242,6 +33386,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1842332053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842332051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1849770031
 GameObject:
   m_ObjectHideFlags: 0
@@ -33087,6 +34244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1898290183}
+  - component: {fileID: 1898290184}
   m_Layer: 0
   m_Name: Madrid Barcelona
   m_TagString: Untagged
@@ -33111,6 +34269,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1898290184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898290182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627fc65431657824aa94d061d81be322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1901346148
 GameObject:
   m_ObjectHideFlags: 0
@@ -33120,6 +34290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1901346149}
+  - component: {fileID: 1901346150}
   m_Layer: 0
   m_Name: Ancora Constantinople
   m_TagString: Untagged
@@ -33144,6 +34315,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1901346150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901346148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1908807234
 GameObject:
   m_ObjectHideFlags: 0
@@ -33211,6 +34395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911915804}
+  - component: {fileID: 1911915805}
   m_Layer: 0
   m_Name: Berlin Warsaw Twin
   m_TagString: Untagged
@@ -33237,6 +34422,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1911915805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911915803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627fc65431657824aa94d061d81be322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1914847885
 GameObject:
   m_ObjectHideFlags: 0
@@ -33246,6 +34443,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1914847886}
+  - component: {fileID: 1914847887}
   m_Layer: 0
   m_Name: Zurich Venezia
   m_TagString: Untagged
@@ -33270,6 +34468,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1914847887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914847885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7937a254dd74f4eb9c6fc4e6e66a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &1915071766 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2497901990817371887, guid: 10c5a1682452b9a44bc4c0d56102383e, type: 3}
@@ -33642,6 +34852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1947613626}
+  - component: {fileID: 1947613627}
   m_Layer: 0
   m_Name: Warsaw Wein
   m_TagString: Untagged
@@ -33668,6 +34879,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1947613627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947613625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ccc669416ee1438640f5d3ef3d960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1948283651
 GameObject:
   m_ObjectHideFlags: 0
@@ -34226,6 +35449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1981918383}
+  - component: {fileID: 1981918384}
   m_Layer: 0
   m_Name: Eevastopol Constantinople
   m_TagString: Untagged
@@ -34252,6 +35476,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1981918384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981918382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1982251275
 GameObject:
   m_ObjectHideFlags: 0
@@ -34339,6 +35576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1982839850}
+  - component: {fileID: 1982839851}
   m_Layer: 0
   m_Name: Sofia Athina
   m_TagString: Untagged
@@ -34364,6 +35602,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982839851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982839849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cb981ef98b2ad43909799b52806271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1985897099
 GameObject:
   m_ObjectHideFlags: 0
@@ -34373,6 +35623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1985897100}
+  - component: {fileID: 1985897101}
   m_Layer: 0
   m_Name: Rostov Eevastopol
   m_TagString: Untagged
@@ -34399,6 +35650,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1985897101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985897099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &1994661755
 GameObject:
   m_ObjectHideFlags: 0
@@ -34804,6 +36068,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2007600104}
+  - component: {fileID: 2007600105}
   m_Layer: 0
   m_Name: Brux Frankfurt
   m_TagString: Untagged
@@ -34828,6 +36093,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2007600105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007600103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ccc669416ee1438640f5d3ef3d960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2007726901
 GameObject:
   m_ObjectHideFlags: 0
@@ -35923,6 +37200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2039552848}
+  - component: {fileID: 2039552849}
   m_Layer: 0
   m_Name: Rica Petrograd
   m_TagString: Untagged
@@ -35949,6 +37227,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2039552849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039552847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &2039688052
 GameObject:
   m_ObjectHideFlags: 0
@@ -37054,6 +38345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2087968253}
+  - component: {fileID: 2087968254}
   m_Layer: 0
   m_Name: Bucuresti Constantinople
   m_TagString: Untagged
@@ -37079,6 +38371,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2087968254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087968252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627fc65431657824aa94d061d81be322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2088970921
 GameObject:
   m_ObjectHideFlags: 0
@@ -37709,6 +39013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2109090616}
+  - component: {fileID: 2109090617}
   m_Layer: 0
   m_Name: Kyiv Kharkov
   m_TagString: Untagged
@@ -37735,6 +39040,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2109090617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109090615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!1 &2114287449
 GameObject:
   m_ObjectHideFlags: 0
@@ -37744,6 +39062,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2114287450}
+  - component: {fileID: 2114287451}
   m_Layer: 0
   m_Name: Amsterdam Essen
   m_TagString: Untagged
@@ -37769,6 +39088,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2114287451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114287449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627fc65431657824aa94d061d81be322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2114696192
 GameObject:
   m_ObjectHideFlags: 0
@@ -38206,6 +39537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2128176063}
+  - component: {fileID: 2128176064}
   m_Layer: 0
   m_Name: Berlin Danzic
   m_TagString: Untagged
@@ -38232,6 +39564,19 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2128176064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128176062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCardColor: 
 --- !u!4 &2131459932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6316556162555149439, guid: 1ec9b8f60ec08f642b1bddd23382f703, type: 3}
@@ -38390,6 +39735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2141394166}
+  - component: {fileID: 2141394167}
   m_Layer: 0
   m_Name: Kobenhaven Stockholm
   m_TagString: Untagged
@@ -38415,6 +39761,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2141394167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141394165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627fc65431657824aa94d061d81be322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2142988323
 GameObject:
   m_ObjectHideFlags: 0
@@ -38424,6 +39782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2142988324}
+  - component: {fileID: 2142988325}
   m_Layer: 0
   m_Name: Roma Venezia
   m_TagString: Untagged
@@ -38448,6 +39807,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2142988325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142988323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2146818984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2345431096028395432, guid: fbde02c5eee66b94eabc47cc21e06120, type: 3}

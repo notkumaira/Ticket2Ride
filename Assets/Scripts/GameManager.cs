@@ -43,6 +43,9 @@ public class GameManager : MonoBehaviour
         Camera playerCamera = Instantiate(playerCameraPrefab);
         SceneManager.MoveGameObjectToScene(playerCamera.gameObject, playerScene);
 
+        // Set the player's viewport rect for split-screen
+        playerCamera.rect = playerIndex == 0 ? new Rect(0f, 0f, 0.5f, 1f) : new Rect(0.5f, 0f, 0.5f, 1f);
+
         // Set player references
         if (playerIndex == 0)
         {
