@@ -18,14 +18,10 @@ public class MultiplayerScript : MonoBehaviour
         {
             SwitchScene();
         }
-
-
     }
 
     private void SwitchScene()
     {
-        Debug.Log(currentPlayer);
-
         if (currentPlayer == 1)
         {
             LoadScene(scene1);
