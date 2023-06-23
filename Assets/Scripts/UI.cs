@@ -35,6 +35,8 @@ public class UI : MonoBehaviour
     private string player1Color;
     private string player2Color;
 
+    private bool isSpaceBarPressed = false; // New variable to track space bar input
+
     private void Start()
     {
         startButton.onClick.AddListener(StartGame);
@@ -193,7 +195,17 @@ public class UI : MonoBehaviour
                 ShowWinScreen();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            isSpaceBarPressed = true;
+        }
+
+        if (isSpaceBarPressed)
+        {
+            PauseGame();
+            ShowPauseMenu();
+            isSpaceBarPressed = false;
+        }
     }
 }
-
-
