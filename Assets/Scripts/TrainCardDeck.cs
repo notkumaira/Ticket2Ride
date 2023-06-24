@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class TrainCardDeck : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class TrainCardDeck : MonoBehaviour
     public List<Transform> cardPositions;
     public List<Transform> trainCardHandPositions;
 
+    public Button trainDeckButton;
+
     private List<GameObject> deck;
     private List<GameObject> trainCardHand;
     private int currentCardIndex;
@@ -27,6 +30,8 @@ public class TrainCardDeck : MonoBehaviour
         ShuffleDeck();
         MoveCardsToPositions();
         trainCardHand = new List<GameObject>();
+
+        trainDeckButton.onClick.AddListener(MoveRandomCardToHand);
     }
 
     private void InitializeDeck()
@@ -80,18 +85,36 @@ public class TrainCardDeck : MonoBehaviour
         }
     }
 
+    private void MoveRandomCardToHand()
+    {
+        if (currentCardIndex >= deck.Count)
+            return;
+
+        if (trainCardHand.Count >= trainCardHandPositions.Count)
+            return;
+
+        int randomIndex = Random.Range(currentCardIndex, deck.Count);
+        GameObject randomCard = deck[randomIndex];
+        deck[randomIndex] = deck[currentCardIndex];
+        deck[currentCardIndex] = randomCard;
+
+        MoveCardToHandPosition(randomCard);
+    }
+
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null && deck.Contains(hit.collider.gameObject))
+            if (hit.collider != null)
             {
                 GameObject clickedCard = hit.collider.gameObject;
                 MoveCardToHandPosition(clickedCard);
             }
         }
     }
+
 
     public void MoveCardToHandPosition(GameObject card)
     {
