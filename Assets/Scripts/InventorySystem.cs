@@ -43,20 +43,14 @@ public class InventorySystem : MonoBehaviour
             case 0: // Scene 0
                 player1TrainCards.Add("TrainCardA");
                 player1TrainCards.Add("TrainCardB");
-                player2TrainCards.Add("TrainCardC");
-                player2TrainCards.Add("TrainCardD");
                 player1DestinationTickets.Add("TicketA");
                 player1DestinationTickets.Add("TicketB");
-                player2DestinationTickets.Add("TicketC");
                 break;
             case 1: // Scene 1
-                player1TrainCards.Add("TrainCardE");
-                player1TrainCards.Add("TrainCardF");
-                player2TrainCards.Add("TrainCardG");
-                player2TrainCards.Add("TrainCardH");
-                player1DestinationTickets.Add("TicketD");
-                player2DestinationTickets.Add("TicketE");
-                player2DestinationTickets.Add("TicketF");
+                player2TrainCards.Add("TrainCardC");
+                player2TrainCards.Add("TrainCardD");
+                player2DestinationTickets.Add("TicketC");
+                player2DestinationTickets.Add("TicketD");
                 break;
                 // Add more cases for additional scenes if needed
         }

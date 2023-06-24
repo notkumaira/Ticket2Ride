@@ -1,59 +1,60 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject playerPrefab; // Prefab for the player object
-    public Camera playerCameraPrefab; // Prefab for the player camera
+    public static GameManager instance; // Singleton instance
 
-    private GameObject player1; // Reference to player 1 object
-    private GameObject player2; // Reference to player 2 object
+    public Player player1;
+    public Player player2;
 
-    private PlayerManager playerManager; // Reference to the PlayerManager script
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
-        // Instantiate the PlayerManager object
-        GameObject playerManagerObj = new GameObject("PlayerManager");
-        playerManager = playerManagerObj.AddComponent<PlayerManager>();
-
-        // Create player 1 and assign player scene 0
-        CreatePlayer(0, "Scene0", playerManagerObj);
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Scene0"));
-
-
-        // Create player 2 and assign player scene 1
-        CreatePlayer(1, "Scene1", playerManagerObj);
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Scene1"));
-
-        // Start the game
-        playerManager.StartGame();
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    private void CreatePlayer(int playerIndex, string sceneName, GameObject playerManagerObj)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Create a new scene for the player
-        Scene playerScene = SceneManager.CreateScene(sceneName);
-
-        // Instantiate the player object into the scene
-        GameObject player = Instantiate(playerPrefab);
-        SceneManager.MoveGameObjectToScene(player, playerScene);
-
-        // Instantiate the player camera prefab into the scene
-        Camera playerCamera = Instantiate(playerCameraPrefab);
-        SceneManager.MoveGameObjectToScene(playerCamera.gameObject, playerScene);
-
-        // Set player references
-        if (playerIndex == 0)
+        // Update inventories based on the active scene
+        switch (scene.buildIndex)
         {
-            player1 = player;
-        }
-        else if (playerIndex == 1)
-        {
-            player2 = player;
-        }
+            case 0: // Scene 0
+                player1.SetDestinationTickets(new List<string> { "TicketA", "TicketB" });
+                player1.GetTrainCards().Clear();
+                player1.GetTrainCards().Add("TrainCardA");
+                player1.GetTrainCards().Add("TrainCardB");
 
-        // Assign the player to the PlayerManager
-        playerManager.AssignPlayer(player);
+                player2.SetDestinationTickets(new List<string>());
+                player2.GetTrainCards().Clear();
+                player2.GetTrainCards().Add("TrainCardC");
+                player2.GetTrainCards().Add("TrainCardD");
+                break;
+            case 1: // Scene 1
+                player1.SetDestinationTickets(new List<string>());
+                player1.GetTrainCards().Clear();
+                player1.GetTrainCards().Add("TrainCardE");
+                player1.GetTrainCards().Add("TrainCardF");
+
+                player2.SetDestinationTickets(new List<string> { "TicketC" });
+                player2.GetTrainCards().Clear();
+                player2.GetTrainCards().Add("TrainCardG");
+                player2.GetTrainCards().Add("TrainCardH");
+                break;
+                // Add more cases for additional scenes if needed
+        }
     }
 }
