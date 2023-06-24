@@ -2,23 +2,25 @@ using UnityEngine;
 
 public class PurpleRoutes : MonoBehaviour
 {
-    private int purpleTrainCardCount = 0; // Number of purple train cards
+    private InventorySystem inventorySystem; // Reference to the InventorySystem component
 
     private void Start()
     {
-        // Count the number of purple train cards as children of this game object
-        foreach (Transform child in transform)
+        // Get the InventorySystem component from the scene
+        inventorySystem = FindObjectOfType<InventorySystem>();
+
+        if (inventorySystem == null)
         {
-            if (child.CompareTag("PurpleTrainCard"))
-            {
-                purpleTrainCardCount++;
-            }
+            Debug.LogWarning("InventorySystem component not found in the scene.");
         }
     }
 
-    public void SelectRoute()
+    private void SomeMethod()
     {
-        // Subtract the number of purple train cards from the player's inventory
-        InventorySystem.instance.SubtractAllocatedTrainCars("Player1", purpleTrainCardCount);
+        if (inventorySystem != null)
+        {
+            // Call the SubtractAllocatedTrainCars method from the InventorySystem component
+            inventorySystem.SubtractAllocatedTrainCars("Player1", 2);
+        }
     }
 }
