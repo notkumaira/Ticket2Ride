@@ -10208,6 +10208,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60cb981ef98b2ad43909799b52806271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &636404112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636404114}
+  - component: {fileID: 636404113}
+  - component: {fileID: 636404115}
+  m_Layer: 0
+  m_Name: Player1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &636404113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636404112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb1f8204bc22cc44871a969f966dc9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1TrainCards: []
+  player2TrainCards: []
+  player1DestinationTickets: []
+  player2DestinationTickets: []
+--- !u!4 &636404114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636404112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5884807, y: 2.8824718, z: 0.23180161}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &636404115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636404112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2d12ce8ffa0cc41a13f5bfc1df4b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: 
+  score: 0
+  trains: 0
 --- !u!1 &636617379
 GameObject:
   m_ObjectHideFlags: 0
@@ -21683,8 +21747,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff031d4f9537c5e4d88b188828d6eadf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 1697559895}
-  playerCameraPrefab: {fileID: 519420031}
+  player1: {fileID: 636404115}
+  player2: {fileID: 1409626705}
 --- !u!4 &1262200390
 Transform:
   m_ObjectHideFlags: 0
@@ -24320,8 +24384,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1409626704}
   - component: {fileID: 1409626703}
+  - component: {fileID: 1409626705}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Player2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24358,6 +24423,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1409626705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409626702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2d12ce8ffa0cc41a13f5bfc1df4b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: 
+  score: 0
+  trains: 0
 --- !u!1 &1411384049
 GameObject:
   m_ObjectHideFlags: 0
@@ -30022,7 +30102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1928ff85e6d05384ab8ea9056a4db741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPaused: 0
 --- !u!4 &1728829745
 Transform:
   m_ObjectHideFlags: 0
@@ -33330,6 +33409,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 2497901990817371887, guid: 10c5a1682452b9a44bc4c0d56102383e, type: 3}
+  inventory1Prefab: {fileID: 636404112}
+  inventory2Prefab: {fileID: 1409626702}
 --- !u!4 &1895051791
 Transform:
   m_ObjectHideFlags: 0
