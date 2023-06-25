@@ -48,15 +48,14 @@ public class DestinationTicketDeck : MonoBehaviour
 
     private void Start()
     {
-        ticketDeck = new DestinationTicketDeck();
+        ticketDeck = this;
 
         DestinationTicket amsterdamToWilnoTicket = new DestinationTicket();
         amsterdamToWilnoTicket.CityA = "Amsterdam";
         amsterdamToWilnoTicket.CityB = "Wilno";
         amsterdamToWilnoTicket.Points = 12;
 
-        // Add the ticket to the deck
-        ticketDeck.AddTicket(amsterdamToWilnoTicket);
+        AddTicket(amsterdamToWilnoTicket);
 
         DestinationTicket athinaToAncoraTicket = new DestinationTicket();
         athinaToAncoraTicket.CityA = "Athina";

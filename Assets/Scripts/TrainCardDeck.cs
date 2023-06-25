@@ -101,7 +101,6 @@ public class TrainCardDeck : MonoBehaviour
         MoveCardToHandPosition(randomCard);
     }
 
-
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -110,11 +109,14 @@ public class TrainCardDeck : MonoBehaviour
             if (hit.collider != null)
             {
                 GameObject clickedCard = hit.collider.gameObject;
-                MoveCardToHandPosition(clickedCard);
+                if (trainCardHand.Contains(clickedCard))
+                {
+                    // Handle the click on train card
+                    Debug.Log("Train Card Clicked");
+                }
             }
         }
     }
-
 
     public void MoveCardToHandPosition(GameObject card)
     {
@@ -128,6 +130,4 @@ public class TrainCardDeck : MonoBehaviour
         card.transform.position = trainCardHandPositions[trainCardHand.Count - 1].position;
         currentCardIndex++;
     }
-
-
 }
