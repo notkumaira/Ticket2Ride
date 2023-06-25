@@ -25233,9 +25233,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92a4bc7e0f96f26408f5d9fc9b20276e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trainCarPrefab: {fileID: 0}
-  player1TrainCarGroup: {fileID: 1946204550}
-  player2TrainCarGroup: {fileID: 645078590}
+  player1Cars: {fileID: 645078590}
+  player2Cars: {fileID: 1946204550}
+  winScreen: {fileID: 2066048145}
+  isPlayer1Active: 1
 --- !u!4 &1536608192
 Transform:
   m_ObjectHideFlags: 0

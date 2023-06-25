@@ -1,20 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TrainCarManager : MonoBehaviour
 {
-    public GameObject trainCarPrefab;
-    public GameObject player1TrainCarGroup;
-    public GameObject player2TrainCarGroup;
+    public GameObject player1Cars;
+    public GameObject player2Cars;
+    public GameObject winScreen;
 
-    private bool isPlayer1Active = true;
+    public bool isPlayer1Active = true;
 
     private void Start()
     {
-        InstantiateTrainCars(player1TrainCarGroup);
-        InstantiateTrainCars(player2TrainCarGroup);
-        ActivateTrainCars(player1TrainCarGroup);
+        ActivatePlayerCars(player1Cars);
+        DeactivatePlayerCars(player2Cars);
+        winScreen.SetActive(false);
     }
 
     private void Update()
@@ -23,37 +21,63 @@ public class TrainCarManager : MonoBehaviour
         {
             if (isPlayer1Active)
             {
-                DeactivateTrainCars(player1TrainCarGroup);
-                ActivateTrainCars(player2TrainCarGroup);
+                DeactivatePlayerCars(player1Cars);
+                ActivatePlayerCars(player2Cars);
             }
             else
             {
-                DeactivateTrainCars(player2TrainCarGroup);
-                ActivateTrainCars(player1TrainCarGroup);
+                DeactivatePlayerCars(player2Cars);
+                ActivatePlayerCars(player1Cars);
             }
 
             isPlayer1Active = !isPlayer1Active;
         }
     }
 
-    private void InstantiateTrainCars(GameObject trainCarGroup)
+    public void RouteClaimed()
     {
-        for (int i = 0; i < 45; i++)
+        if (isPlayer1Active)
         {
-            GameObject trainCar = Instantiate(trainCarPrefab, Vector3.zero, Quaternion.identity);
-            trainCar.transform.SetParent(trainCarGroup.transform);
-            trainCar.transform.localPosition = Vector3.zero;
-            trainCar.transform.localRotation = Quaternion.identity;
+            SubtractTrainCars(player1Cars);
+        }
+        else
+        {
+            SubtractTrainCars(player2Cars);
+        }
+
+        CheckWinCondition();
+    }
+
+    private void SubtractTrainCars(GameObject group)
+    {
+        int remainingTrainCars = group.transform.childCount;
+        if (remainingTrainCars > 0)
+        {
+            Transform lastTrainCar = group.transform.GetChild(remainingTrainCars - 1);
+            Destroy(lastTrainCar.gameObject);
         }
     }
 
-    private void ActivateTrainCars(GameObject trainCarGroup)
+    private void CheckWinCondition()
     {
-        trainCarGroup.SetActive(true);
+        if (player1Cars.transform.childCount <= 2 || player2Cars.transform.childCount <= 2)
+        {
+            ShowWinScreen();
+        }
     }
 
-    private void DeactivateTrainCars(GameObject trainCarGroup)
+    private void ShowWinScreen()
     {
-        trainCarGroup.SetActive(false);
+        winScreen.SetActive(true);
+    }
+
+    private void ActivatePlayerCars(GameObject group)
+    {
+        group.SetActive(true);
+    }
+
+    private void DeactivatePlayerCars(GameObject group)
+    {
+        group.SetActive(false);
     }
 }

@@ -1,48 +1,49 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class RouteSelection : MonoBehaviour
 {
-    private bool isSelectingRoute = false;
-    private Button selectedRouteButton = null;
+    private int player1RemainingTrainCars;
+    private int player2RemainingTrainCars;
 
-    private void Awake()
+    private TrainCarManager trainCarManager;
+
+    private void Start()
     {
-        // Attach the Click event to each route button in your UI
-        Button[] routeButtons = GetComponentsInChildren<Button>();
-        foreach (Button routeButton in routeButtons)
+        player1RemainingTrainCars = 45;
+        player2RemainingTrainCars = 45;
+
+        trainCarManager = FindObjectOfType<TrainCarManager>();
+        if (trainCarManager == null)
         {
-            routeButton.onClick.AddListener(() => SelectRoute(routeButton));
+            Debug.LogError("TrainCarManager script not found in the scene!");
         }
     }
 
-    private void SelectRoute(Button routeButton)
+    public void RouteClaimed()
     {
-        // Check if the route is available and not already selected
-        if (!isSelectingRoute && !routeButton.interactable)
+        if (trainCarManager.isPlayer1Active)
         {
-            // Select the route
-            selectedRouteButton = routeButton;
-            isSelectingRoute = true;
-
-            // Disable the button to prevent multiple selections
-            selectedRouteButton.interactable = false;
-
-            // Transport trains to the selected route
-            TransportTrains(selectedRouteButton.transform.position);
-
-            // Mark the route as claimed
-            // Implement your own logic to mark the route as claimed
-
-            // Clear the selected route
-            selectedRouteButton = null;
-            isSelectingRoute = false;
+            player1RemainingTrainCars -= 2;
+            if (player1RemainingTrainCars <= 2)
+            {
+                // Player 2 wins
+                ShowWinScreen(2);
+            }
+        }
+        else
+        {
+            player2RemainingTrainCars -= 2;
+            if (player2RemainingTrainCars <= 2)
+            {
+                // Player 1 wins
+                ShowWinScreen(1);
+            }
         }
     }
 
-    private void TransportTrains(Vector3 targetPosition)
+    private void ShowWinScreen(int player)
     {
-        // Move trains towards the target position
-        // Implement your own train movement logic here
+        // Implement your win screen logic here
+        Debug.Log("Player " + player + " wins!");
     }
 }
