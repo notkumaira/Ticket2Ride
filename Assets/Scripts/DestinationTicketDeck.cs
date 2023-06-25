@@ -48,14 +48,15 @@ public class DestinationTicketDeck : MonoBehaviour
 
     private void Start()
     {
-        ticketDeck = this;
+        ticketDeck = new DestinationTicketDeck();
 
         DestinationTicket amsterdamToWilnoTicket = new DestinationTicket();
         amsterdamToWilnoTicket.CityA = "Amsterdam";
         amsterdamToWilnoTicket.CityB = "Wilno";
         amsterdamToWilnoTicket.Points = 12;
 
-        AddTicket(amsterdamToWilnoTicket);
+        // Add the ticket to the deck
+        ticketDeck.AddTicket(amsterdamToWilnoTicket);
 
         DestinationTicket athinaToAncoraTicket = new DestinationTicket();
         athinaToAncoraTicket.CityA = "Athina";
@@ -263,17 +264,18 @@ public class DestinationTicketDeck : MonoBehaviour
             return;
         }
 
-            currentCardIndex = 0;
+        currentCardIndex = 0;
 
-            for (int i = 0; i < ticketPositions.Count; i++)
-            {
-                if (currentCardIndex >= deck.Count)
-                    break;
+        for (int i = 0; i < ticketPositions.Count; i++)
+        {
+            if (currentCardIndex >= deck.Count)
+                break;
 
-                GameObject card = deck[currentCardIndex];
-                card.transform.position = ticketPositions[i].position;
-                currentCardIndex++;
-            }
+            GameObject card = deck[currentCardIndex];
+            card.transform.position = ticketPositions[i].position;
+            currentCardIndex++;
+        }
 
     }
 }
+
