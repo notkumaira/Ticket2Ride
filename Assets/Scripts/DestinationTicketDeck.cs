@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DestinationTicketDeck : MonoBehaviour
 {
+
     private List<DestinationTicket> tickets;
     private List<DestinationTicket> drawnTickets;
     private DestinationTicketDeck ticketDeck;
@@ -14,18 +15,12 @@ public class DestinationTicketDeck : MonoBehaviour
 
     [SerializeField] private Button drawButton;
     [SerializeField] private List<Transform> ticketPositions;
-    [SerializeField] private List<Transform> DestinationTickets;
 
     private void Awake()
     {
         tickets = new List<DestinationTicket>();
         drawnTickets = new List<DestinationTicket>();
         currentIndex = 0;
-    }
-
-    public DestinationTicketDeck()
-    {
-        tickets = new List<DestinationTicket>();
     }
 
     public void AddTicket(DestinationTicket ticket)
@@ -48,14 +43,13 @@ public class DestinationTicketDeck : MonoBehaviour
 
     private void Start()
     {
-        ticketDeck = new DestinationTicketDeck();
+        ticketDeck = this;
 
         DestinationTicket amsterdamToWilnoTicket = new DestinationTicket();
         amsterdamToWilnoTicket.CityA = "Amsterdam";
         amsterdamToWilnoTicket.CityB = "Wilno";
         amsterdamToWilnoTicket.Points = 12;
 
-        // Add the ticket to the deck
         ticketDeck.AddTicket(amsterdamToWilnoTicket);
 
         DestinationTicket athinaToAncoraTicket = new DestinationTicket();
@@ -252,6 +246,13 @@ public class DestinationTicketDeck : MonoBehaviour
 
         ticketDeck.AddTicket(AmsterdamnToPampelona);
 
+        DestinationTicket ErzurumToKobenhaven = new DestinationTicket();
+        AmsterdamnToPampelona.CityA = "Erzurum";
+        AmsterdamnToPampelona.CityB = "Kobenhaven";
+        AmsterdamnToPampelona.Points = 21;
+
+        ticketDeck.AddTicket(ErzurumToKobenhaven);
+
         ShuffleDeck();
         drawButton.onClick.AddListener(DrawTicket);
     }
@@ -268,14 +269,16 @@ public class DestinationTicketDeck : MonoBehaviour
 
         for (int i = 0; i < ticketPositions.Count; i++)
         {
-            if (currentCardIndex >= deck.Count)
+            if (currentCardIndex >= tickets.Count)
                 break;
 
-            GameObject card = deck[currentCardIndex];
-            card.transform.position = ticketPositions[i].position;
+            DestinationTicket ticket = tickets[currentCardIndex];
+            Debug.Log("Drawing ticket: " + ticket.CityA + " to " + ticket.CityB);
+
             currentCardIndex++;
         }
 
+
+        currentIndex++;
     }
 }
-
