@@ -2,7 +2,13 @@ using UnityEngine;
 
 public class GreenRoutes : MonoBehaviour
 {
+    private InventorySystem inventorySystem;
     private int greenTrainCardCount = 0; // Number of green train cards
+
+    private void Awake()
+    {
+        inventorySystem = FindObjectOfType<InventorySystem>();
+    }
 
     private void Start()
     {
@@ -14,6 +20,16 @@ public class GreenRoutes : MonoBehaviour
                 greenTrainCardCount++;
             }
         }
+
+        // Example usage
+        if (inventorySystem != null)
+        {
+            inventorySystem.SubtractAllocatedTrainCars("Player2", 4);
+        }
+        else
+        {
+            Debug.LogWarning("InventorySystem not found in the scene.");
+        }
     }
 
     public void SelectRoute()
@@ -22,4 +38,3 @@ public class GreenRoutes : MonoBehaviour
         InventorySystem.instance.SubtractAllocatedTrainCars("Player1", greenTrainCardCount);
     }
 }
-

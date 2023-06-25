@@ -2,7 +2,13 @@ using UnityEngine;
 
 public class RedRoutes : MonoBehaviour
 {
+    private InventorySystem inventorySystem;
     private int redTrainCardCount = 0; // Number of red train cards
+
+    private void Awake()
+    {
+        inventorySystem = FindObjectOfType<InventorySystem>();
+    }
 
     private void Start()
     {
@@ -13,6 +19,16 @@ public class RedRoutes : MonoBehaviour
             {
                 redTrainCardCount++;
             }
+        }
+
+        // Example usage
+        if (inventorySystem != null)
+        {
+            inventorySystem.SubtractAllocatedTrainCars("Player2", 4);
+        }
+        else
+        {
+            Debug.LogWarning("InventorySystem not found in the scene.");
         }
     }
 
