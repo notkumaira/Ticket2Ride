@@ -47,10 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cb1f8204bc22cc44871a969f966dc9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1TrainCards: []
-  player2TrainCards: []
-  player1DestinationTickets: []
-  player2DestinationTickets: []
+  player1Hand: {fileID: 7343378385018923551}
+  player2Hand: {fileID: 0}
 --- !u!1001 &3172983030543303705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -167,6 +165,30 @@ PrefabInstance:
     - target: {fileID: 8330511876806850131, guid: 56f57d60c3ce2c64cac565a9880e4e94, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8330511877026260992, guid: 56f57d60c3ce2c64cac565a9880e4e94, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8330511877026260992, guid: 56f57d60c3ce2c64cac565a9880e4e94, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8330511877091373121, guid: 56f57d60c3ce2c64cac565a9880e4e94, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8330511877091373121, guid: 56f57d60c3ce2c64cac565a9880e4e94, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8330511877508417575, guid: 56f57d60c3ce2c64cac565a9880e4e94, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8330511877508417575, guid: 56f57d60c3ce2c64cac565a9880e4e94, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f57d60c3ce2c64cac565a9880e4e94, type: 3}

@@ -13,4 +13,3 @@ public class DestinationTicket : MonoBehaviour
     public string CityB { get { return cityB; } set { cityB = value; } }
     public int Points { get { return points; } set { points = value; } }
 }
-

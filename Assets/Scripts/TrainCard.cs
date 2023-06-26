@@ -32,7 +32,9 @@ public class TrainCard : MonoBehaviour, IPointerDownHandler
         // Call the MoveCardToHandPosition method in the TrainCardDeck script
         if (trainCardDeck != null)
         {
-            trainCardDeck.MoveCardToHandPosition(gameObject);
+            trainCardDeck.MoveCardToHandPosition(this, transform.parent, trainCardDeck.player1Hand);
         }
     }
+
+
 }
