@@ -15,7 +15,6 @@ public class SecondPlayerCars : MonoBehaviour
     private int yellowTrainCarsCount = 45;
 
     private bool isTrainCarsVisible = false;
-    private bool isTKeyPressed = false;
 
     private void Start()
     {
