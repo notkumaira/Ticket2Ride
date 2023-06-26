@@ -61,18 +61,32 @@ public class RouteBuilder : MonoBehaviour
         lineRenderer.endWidth = routeWidth;
 
         Vector3[] positions = new Vector3[2];
-        positions[0] = startPoint.position;
-        positions[0].z = 0f; // Set the z-coordinate to 0 for 2D
-        positions[1] = endPoint.position;
-        positions[1].z = 0f; // Set the z-coordinate to 0 for 2D
+        Vector3 startPointPosition = startPoint.position;
+        Vector3 endPointPosition = endPoint.position;
 
-        lineRenderer.positionCount = 2; // Update the position count for 2D
+        Vector3 clickedPosition = Input.mousePosition;
+        clickedPosition.z = Camera.main.transform.position.z;
 
+        float distanceToStart = Vector3.Distance(clickedPosition, startPointPosition);
+        float distanceToEnd = Vector3.Distance(clickedPosition, endPointPosition);
+
+        if (distanceToStart < distanceToEnd)
+        {
+            positions[0] = startPointPosition;
+            positions[1] = endPointPosition;
+        }
+        else
+        {
+            positions[0] = endPointPosition;
+            positions[1] = startPointPosition;
+        }
+
+        lineRenderer.positionCount = 2;
         lineRenderer.SetPositions(positions);
 
-        // Modify the required number of train cars and points reward based on the route length
-        requiredTrainCars = transform.childCount + 1; // Include the parent object
-        pointsReward = CalculatePointsReward(requiredTrainCars);
+        // Calculate the required train cars based on the distance between start and end points
+        float routeDistance = Vector3.Distance(startPointPosition, endPointPosition);
+        int requiredTrainCars = CalculateRequiredTrainCars(routeDistance);
 
         // Subtract train cars from the respective player's group
         TrainCarManager trainCarManager = FindObjectOfType<TrainCarManager>();
@@ -88,13 +102,36 @@ public class RouteBuilder : MonoBehaviour
             }
         }
 
+        pointScoringSystem.RouteBuilt(requiredTrainCars);
+    }
 
-        // Reward points for completing the route
-        pointScoringSystem.RouteBuilt(pointsReward);
-
-        // Reset the clicked flags
-        startPointClicked = false;
-        endPointClicked = false;
+    private int CalculateRequiredTrainCars(float routeDistance)
+    {
+        // Define the train car requirements based on the route distance
+        if (routeDistance <= 2f)
+        {
+            return 1;
+        }
+        else if (routeDistance <= 4f)
+        {
+            return 2;
+        }
+        else if (routeDistance <= 6f)
+        {
+            return 3;
+        }
+        else if (routeDistance <= 8f)
+        {
+            return 4;
+        }
+        else if (routeDistance <= 10f)
+        {
+            return 5;
+        }
+        else
+        {
+            return 6;
+        }
     }
 
     private int CalculatePointsReward(int trainCarsCount)
