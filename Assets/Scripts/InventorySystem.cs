@@ -1,38 +1,86 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class InventorySystem : MonoBehaviour
 {
-    public GameObject player1Hand;
-    public GameObject player2Hand;
+    public static InventorySystem instance; // Singleton instance
 
-    private bool isPlayer1Turn = true;
+    public List<string> player1TrainCards;
+    public List<string> player2TrainCards;
+    public List<string> player1DestinationTickets;
+    public List<string> player2DestinationTickets;
 
-    private void Start()
+    private void Awake()
     {
-        // Start with player 1's turn, hide player 2's hand
-        player2Hand.SetActive(false);
-    }
-
-    private void Update()
-    {
-        // Check for "T" key press to switch turns
-        if (Input.GetKeyDown(KeyCode.T))
+        if (instance == null)
         {
-            // Toggle turn
-            isPlayer1Turn = !isPlayer1Turn;
-
-            // Hide the previous player's hand
-            if (isPlayer1Turn)
-            {
-                player2Hand.SetActive(false);
-                player1Hand.SetActive(true);
-            }
-            else
-            {
-                player1Hand.SetActive(false);
-                player2Hand.SetActive(true);
-            }
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 
+    private void Start()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Clear inventories when a new scene is loaded
+        player1TrainCards.Clear();
+        player2TrainCards.Clear();
+        player1DestinationTickets.Clear();
+        player2DestinationTickets.Clear();
+
+        // Update inventories based on the active scene
+        switch (scene.buildIndex)
+        {
+            case 0: // Scene 0
+                player1TrainCards.Add("TrainCardA");
+                player1TrainCards.Add("TrainCardB");
+                player1DestinationTickets.Add("TicketA");
+                player1DestinationTickets.Add("TicketB");
+                break;
+            case 1: // Scene 1
+                player2TrainCards.Add("TrainCardC");
+                player2TrainCards.Add("TrainCardD");
+                player2DestinationTickets.Add("TicketC");
+                player2DestinationTickets.Add("TicketD");
+                break;
+                // Add more cases for additional scenes if needed
+        }
+    }
+
+    public void SubtractAllocatedTrainCars(string playerName, int trainCarCount)
+    {
+        List<string> trainCards = GetPlayerTrainCards(playerName);
+        if (trainCards.Count >= trainCarCount)
+        {
+            trainCards.RemoveRange(0, trainCarCount);
+        }
+        else
+        {
+            Debug.LogWarning("Player doesn't have enough train cars.");
+        }
+    }
+
+    private List<string> GetPlayerTrainCards(string playerName)
+    {
+        if (playerName == "Player1")
+        {
+            return player1TrainCards;
+        }
+        else if (playerName == "Player2")
+        {
+            return player2TrainCards;
+        }
+
+        Debug.LogWarning("Invalid player name.");
+        return null;
+    }
 }

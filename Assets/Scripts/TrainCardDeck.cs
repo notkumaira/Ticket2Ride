@@ -15,42 +15,28 @@ public class TrainCardDeck : MonoBehaviour
     public GameObject greenTrainCardPrefab;
     public GameObject rainbowTrainCardPrefab;
 
-    public Transform[] cardPositions;
-    public List<TrainCard> deck = new List<TrainCard>();
+    public List<Transform> cardPositions;
+    public List<Transform> trainCardHandPositions;
 
-    public bool[] player1AvailableHandPositions = new bool[5];
-    public bool[] player2AvailableHandPositions = new bool[5];
-
-    public GameObject player1HandPrefab;
-    public GameObject player2HandPrefab;
     public Button trainDeckButton;
 
-    public Transform player1HandParent;
-    public Transform player2HandParent;
+    private List<GameObject> deck;
+    private List<GameObject> trainCardHand;
     private int currentCardIndex;
-
-    public List<TrainCard> player1Hand = new List<TrainCard>();
-    public List<TrainCard> player2Hand = new List<TrainCard>();
 
     private void Start()
     {
         InitializeDeck();
         ShuffleDeck();
         MoveCardsToPositions();
-        player1AvailableHandPositions = new bool[5];
-        player2AvailableHandPositions = new bool[5];
-        for (int i = 0; i < player1AvailableHandPositions.Length; i++)
-        {
-            player1AvailableHandPositions[i] = true;
-            player2AvailableHandPositions[i] = true;
-        }
+        trainCardHand = new List<GameObject>();
 
         trainDeckButton.onClick.AddListener(MoveRandomCardToHand);
     }
 
     private void InitializeDeck()
     {
-        deck = new List<TrainCard>();
+        deck = new List<GameObject>();
 
         AddTrainCardsToDeck(blackTrainCardPrefab, 12);
         AddTrainCardsToDeck(blueTrainCardPrefab, 12);
@@ -68,11 +54,9 @@ public class TrainCardDeck : MonoBehaviour
         for (int i = 0; i < count; i++)
         {
             GameObject card = Instantiate(prefab, transform);
-            TrainCard trainCard = card.GetComponent<TrainCard>();
-            deck.Add(trainCard);
+            deck.Add(card);
         }
     }
-
 
     private void ShuffleDeck()
     {
@@ -80,23 +64,22 @@ public class TrainCardDeck : MonoBehaviour
         for (int i = 0; i < deckSize; i++)
         {
             int randomIndex = Random.Range(i, deckSize);
-            TrainCard temp = deck[randomIndex];
+            GameObject temp = deck[randomIndex];
             deck[randomIndex] = deck[i];
             deck[i] = temp;
         }
     }
 
-
     private void MoveCardsToPositions()
     {
         currentCardIndex = 0;
 
-        for (int i = 0; i < cardPositions.Length; i++)
+        for (int i = 0; i < cardPositions.Count; i++)
         {
             if (currentCardIndex >= deck.Count)
                 break;
 
-            TrainCard card = deck[currentCardIndex];
+            GameObject card = deck[currentCardIndex];
             card.transform.position = cardPositions[i].position;
             currentCardIndex++;
         }
@@ -107,48 +90,16 @@ public class TrainCardDeck : MonoBehaviour
         if (currentCardIndex >= deck.Count)
             return;
 
-        int player1HandCount = player1Hand.Count;
-        int player2HandCount = player2Hand.Count;
-
-        if (player1HandCount >= player1AvailableHandPositions.Length && player2HandCount >= player2AvailableHandPositions.Length)
+        if (trainCardHand.Count >= trainCardHandPositions.Count)
             return;
 
         int randomIndex = Random.Range(currentCardIndex, deck.Count);
-        TrainCard randomCard = deck[randomIndex];
+        GameObject randomCard = deck[randomIndex];
         deck[randomIndex] = deck[currentCardIndex];
         deck[currentCardIndex] = randomCard;
 
-        if (player1HandCount < player1AvailableHandPositions.Length)
-        {
-            MoveCardToHandPosition(randomCard, player1HandParent, player1Hand);
-            player1AvailableHandPositions[player1HandCount] = true;
-        }
-        else if (player2HandCount < player2AvailableHandPositions.Length)
-        {
-            MoveCardToHandPosition(randomCard, player2HandParent, player2Hand);
-            player2AvailableHandPositions[player2HandCount] = true;
-        }
+        MoveCardToHandPosition(randomCard);
     }
-
-public void MoveCardToHandPosition(TrainCard card, Transform handParent, List<TrainCard> hand)
-{
-    card.transform.SetParent(handParent);
-
-    // Get the index of the hand position where the card should be placed
-    int handIndex = hand.Count;
-
-    // Check if the hand index is valid and within the range of hand positions
-    if (handIndex >= 0 && handIndex < handParent.childCount)
-    {
-        Transform handPosition = handParent.GetChild(handIndex);
-        card.transform.position = handPosition.position;
-        card.transform.rotation = handPosition.rotation;
-    }
-
-    hand.Add(card);
-    currentCardIndex++;
-}
-
 
     private void Update()
     {
@@ -157,57 +108,26 @@ public void MoveCardToHandPosition(TrainCard card, Transform handParent, List<Tr
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
             if (hit.collider != null)
             {
-                TrainCard clickedCard = hit.collider.GetComponent<TrainCard>();
-                if (player1Hand.Contains(clickedCard))
+                GameObject clickedCard = hit.collider.gameObject;
+                if (trainCardHand.Contains(clickedCard))
                 {
-                    // Handle the click on train card for player 1
-                    Debug.Log("Player 1 Train Card Clicked");
-                }
-                else if (player2Hand.Contains(clickedCard))
-                {
-                    // Handle the click on train card for player 2
-                    Debug.Log("Player 2 Train Card Clicked");
+                    // Handle the click on train card
+                    Debug.Log("Train Card Clicked");
                 }
             }
         }
     }
 
-
-    public void SwitchPlayerHand()
+    public void MoveCardToHandPosition(GameObject card)
     {
-        // Deactivate current active player hand
-        if (player1HandPrefab.activeSelf)
-        {
-            player1HandPrefab.SetActive(false);
-            player1HandPrefab.transform.SetParent(player2HandParent);
-            player2HandPrefab.transform.SetParent(player1HandParent);
+        if (currentCardIndex >= deck.Count)
+            return;
 
-            // Switch available card slots with the other player
-            bool[] temp = player1AvailableHandPositions;
-            player1AvailableHandPositions = player2AvailableHandPositions;
-            player2AvailableHandPositions = temp;
-        }
-        else if (player2HandPrefab.activeSelf)
-        {
-            player2HandPrefab.SetActive(false);
-            player2HandPrefab.transform.SetParent(player1HandParent);
-            player1HandPrefab.transform.SetParent(player2HandParent);
+        if (trainCardHand.Count >= trainCardHandPositions.Count)
+            return;
 
-            // Switch available card slots with the other player
-            bool[] temp = player2AvailableHandPositions;
-            player2AvailableHandPositions = player1AvailableHandPositions;
-            player1AvailableHandPositions = temp;
-        }
-
-        // Activate new active player hand
-        if (player1HandPrefab.transform.parent == player1HandParent)
-        {
-            player1HandPrefab.SetActive(true);
-        }
-        else if (player2HandPrefab.transform.parent == player2HandParent)
-        {
-            player2HandPrefab.SetActive(true);
-        }
+        trainCardHand.Add(card);
+        card.transform.position = trainCardHandPositions[trainCardHand.Count - 1].position;
+        currentCardIndex++;
     }
 }
-
