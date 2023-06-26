@@ -14,13 +14,11 @@ public class TrainCarManager : MonoBehaviour
     public int player1CarCount = 0;
     public int player2CarCount = 0;
 
-    public GameObject player1TrainCarPrefab;
-    public GameObject player2TrainCarPrefab;
     public int numberOfTrainCars = 10;
-    public Vector3 scatterPosition;
+    public Vector3 spawnPosition;
     public float maxDeviation = 0.5f;
 
-    private GameObject[] trainCars;
+    private GameObject trainCarsGroup; // Main group containing all train cars
 
     private void Start()
     {
@@ -28,9 +26,17 @@ public class TrainCarManager : MonoBehaviour
         DeactivatePlayerCars(player2Cars);
         winScreen.SetActive(false);
 
-        trainCars = new GameObject[numberOfTrainCars];
+        trainCarsGroup = new GameObject("TrainCarsGroup"); // Create the main group
 
-        ScatterTrainCars();
+        // Instantiate and scatter the train cars
+        for (int i = 0; i < numberOfTrainCars; i++)
+        {
+            Vector3 randomDeviation = new Vector3(Random.Range(-maxDeviation, maxDeviation), Random.Range(-maxDeviation, maxDeviation), 0f);
+            Vector3 spawnPosition = this.spawnPosition + randomDeviation;
+
+            GameObject trainCar = Instantiate(GetActivePlayerCars(), spawnPosition, Quaternion.identity);
+            trainCar.transform.SetParent(trainCarsGroup.transform);
+        }
     }
 
     private void Update()
@@ -49,8 +55,6 @@ public class TrainCarManager : MonoBehaviour
             }
 
             isPlayer1Active = !isPlayer1Active;
-
-            ScatterTrainCars();
         }
     }
 
@@ -70,13 +74,25 @@ public class TrainCarManager : MonoBehaviour
 
     public void SubtractTrainCars(GameObject group, int requiredTrainCars)
     {
-        if (isPlayer1Active)
+        if (group == player1Cars)
         {
             player1CarCount -= requiredTrainCars;
         }
-        else
+        else if (group == player2Cars)
         {
             player2CarCount -= requiredTrainCars;
+        }
+        else if (group == trainCarsGroup)
+        {
+            int remainingTrainCars = GetRemainingTrainCars(group);
+            if (remainingTrainCars >= requiredTrainCars)
+            {
+                for (int i = 0; i < requiredTrainCars; i++)
+                {
+                    GameObject trainCar = group.transform.GetChild(i).gameObject;
+                    trainCar.SetActive(false);
+                }
+            }
         }
     }
 
@@ -97,6 +113,7 @@ public class TrainCarManager : MonoBehaviour
             }
             else
             {
+                // Points are equal, check for longest route
                 int player1RouteLength = CalculateLongestRouteLength(player1Cars);
                 int player2RouteLength = CalculateLongestRouteLength(player2Cars);
 
@@ -118,7 +135,28 @@ public class TrainCarManager : MonoBehaviour
 
     public int GetRemainingTrainCars(GameObject group)
     {
-        return group.transform.childCount;
+        int remainingTrainCars = 0;
+
+        if (group == player1Cars)
+        {
+            remainingTrainCars = player1CarCount;
+        }
+        else if (group == player2Cars)
+        {
+            remainingTrainCars = player2CarCount;
+        }
+        else if (group == trainCarsGroup)
+        {
+            for (int i = 0; i < group.transform.childCount; i++)
+            {
+                if (group.transform.GetChild(i).gameObject.activeSelf)
+                {
+                    remainingTrainCars++;
+                }
+            }
+        }
+
+        return remainingTrainCars;
     }
 
     private int CalculateRequiredTrainCars(GameObject group)
@@ -199,26 +237,16 @@ public class TrainCarManager : MonoBehaviour
     {
         group.SetActive(false);
     }
-    private void ScatterTrainCars()
+
+    private GameObject GetActivePlayerCars()
     {
-        foreach (GameObject trainCar in trainCars)
+        if (isPlayer1Active)
         {
-            if (trainCar != null)
-            {
-                Destroy(trainCar);
-            }
+            return player1Cars;
         }
-
-        GameObject trainCarPrefab = isPlayer1Active ? player1TrainCarPrefab : player2TrainCarPrefab;
-
-        for (int i = 0; i < numberOfTrainCars; i++)
+        else
         {
-            Vector3 randomDeviation = new Vector3(Random.Range(-maxDeviation, maxDeviation), Random.Range(-maxDeviation, maxDeviation), Random.Range(-maxDeviation, maxDeviation));
-            Vector3 spawnPosition = scatterPosition + randomDeviation;
-
-            GameObject trainCar = Instantiate(trainCarPrefab, spawnPosition, Quaternion.identity);
-            trainCar.transform.SetParent(transform);
-            trainCars[i] = trainCar;
+            return player2Cars;
         }
     }
 }
