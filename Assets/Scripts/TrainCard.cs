@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using System.Collections.Generic;
+
 
 public class TrainCard : MonoBehaviour, IPointerDownHandler
 {
@@ -32,7 +34,9 @@ public class TrainCard : MonoBehaviour, IPointerDownHandler
         // Call the MoveCardToHandPosition method in the TrainCardDeck script
         if (trainCardDeck != null)
         {
-            trainCardDeck.MoveCardToHandPosition(gameObject);
+            Transform handParent = gameObject.transform.parent;
+            List<TrainCard> hand = (handParent == trainCardDeck.player1HandParent) ? trainCardDeck.player1Hand : trainCardDeck.player2Hand;
+            trainCardDeck.MoveCardToHandPosition(this, handParent, hand);
         }
     }
 }
