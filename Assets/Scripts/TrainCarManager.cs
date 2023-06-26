@@ -8,6 +8,12 @@ public class TrainCarManager : MonoBehaviour
 
     public bool isPlayer1Active = true;
 
+    public int player1LongestRouteLength = 0;
+    public int player2LongestRouteLength = 0;
+
+    public int player1CarCount = 0; // Renamed variable
+    public int player2CarCount = 0;
+
     private void Start()
     {
         ActivatePlayerCars(player1Cars);
@@ -38,41 +44,137 @@ public class TrainCarManager : MonoBehaviour
     {
         if (isPlayer1Active)
         {
-            SubtractTrainCars(player1Cars, 1);
+            SubtractTrainCars(player1Cars, CalculateRequiredTrainCars(player1Cars));
         }
         else
         {
-            SubtractTrainCars(player2Cars, 1);
+            SubtractTrainCars(player2Cars, CalculateRequiredTrainCars(player2Cars));
         }
 
         CheckWinCondition();
     }
 
-    public void SubtractTrainCars(GameObject group, int count)
+    public void SubtractTrainCars(GameObject group, int requiredTrainCars)
     {
-        int remainingTrainCars = group.transform.childCount;
-        if (remainingTrainCars >= count)
+        if (isPlayer1Active)
         {
-            for (int i = 0; i < count; i++)
-            {
-                Transform lastTrainCar = group.transform.GetChild(remainingTrainCars - 1);
-                Destroy(lastTrainCar.gameObject);
-                remainingTrainCars--;
-            }
+            player1CarCount -= requiredTrainCars;
+        }
+        else
+        {
+            player2CarCount -= requiredTrainCars;
         }
     }
 
     private void CheckWinCondition()
     {
-        if (player1Cars.transform.childCount <= 2 || player2Cars.transform.childCount <= 2)
+        int player1Points = GetRemainingTrainCars(player1Cars);
+        int player2Points = GetRemainingTrainCars(player2Cars);
+
+        if (player1Points <= 2 || player2Points <= 2)
         {
-            ShowWinScreen();
+            if (player1Points < player2Points)
+            {
+                ShowWinScreen(2); // Player 2 wins
+            }
+            else if (player1Points > player2Points)
+            {
+                ShowWinScreen(1); // Player 1 wins
+            }
+            else
+            {
+                // Points are equal, check for longest route
+                int player1RouteLength = CalculateLongestRouteLength(player1Cars);
+                int player2RouteLength = CalculateLongestRouteLength(player2Cars);
+
+                if (player1RouteLength > player2RouteLength)
+                {
+                    ShowWinScreen(1); // Player 1 wins with longest route
+                }
+                else if (player2RouteLength > player1RouteLength)
+                {
+                    ShowWinScreen(2); // Player 2 wins with longest route
+                }
+                else
+                {
+                    ShowWinScreen(0); // It's a draw
+                }
+            }
         }
     }
 
-    public void ShowWinScreen()
+    public int GetRemainingTrainCars(GameObject group)
+    {
+        return group.transform.childCount;
+    }
+
+    private int CalculateRequiredTrainCars(GameObject group)
+    {
+        int routeLength = GetRemainingTrainCars(group);
+
+        if (routeLength <= 2)
+        {
+            return 1;
+        }
+        else if (routeLength <= 4)
+        {
+            return 2;
+        }
+        else if (routeLength <= 6)
+        {
+            return 3;
+        }
+        else if (routeLength <= 8)
+        {
+            return 4;
+        }
+        else
+        {
+            return 5;
+        }
+    }
+
+    public int CalculateLongestRouteLength(GameObject group)
+    {
+        int longestRouteLength = 0;
+        int currentRouteLength = 0;
+
+        for (int i = 0; i < group.transform.childCount; i++)
+        {
+            if (i == 0 || group.transform.GetChild(i).GetSiblingIndex() == group.transform.GetChild(i - 1).GetSiblingIndex() + 1)
+            {
+                currentRouteLength++;
+            }
+            else
+            {
+                if (currentRouteLength > longestRouteLength)
+                {
+                    longestRouteLength = currentRouteLength;
+                }
+                currentRouteLength = 1;
+            }
+        }
+
+        if (currentRouteLength > longestRouteLength)
+        {
+            longestRouteLength = currentRouteLength;
+        }
+
+        return longestRouteLength;
+    }
+
+    private void ShowWinScreen(int winner)
     {
         winScreen.SetActive(true);
+
+        if (winner == 0)
+        {
+            Debug.Log("It's a draw! Determining winner based on longest continuous route.");
+        }
+        else
+        {
+            Debug.Log("Player " + winner + " wins!");
+        }
     }
 
     private void ActivatePlayerCars(GameObject group)
@@ -83,10 +185,5 @@ public class TrainCarManager : MonoBehaviour
     private void DeactivatePlayerCars(GameObject group)
     {
         group.SetActive(false);
-    }
-
-    public int GetRemainingTrainCars(GameObject group)
-    {
-        return group.transform.childCount;
     }
 }

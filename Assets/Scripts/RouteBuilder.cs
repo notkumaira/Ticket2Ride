@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RouteBuilder : MonoBehaviour
@@ -7,55 +5,44 @@ public class RouteBuilder : MonoBehaviour
     public Transform startPoint;
     public Transform endPoint;
     public float routeWidth = 0.5f;
-    public float routeLength = 10f;
-    public int requiredTrainCars; // Number of train cars required for the route
-    public int pointsReward; // Points rewarded for completing the route
 
     private LineRenderer lineRenderer;
-    private PointScoringSystem pointScoringSystem;
+    private TrainCarManager trainCarManager;
     private bool startPointClicked = false;
     private bool endPointClicked = false;
 
     private void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        pointScoringSystem = FindObjectOfType<PointScoringSystem>();
-
-        // Initially, both start and end points are not clicked
-        startPointClicked = false;
-        endPointClicked = false;
+        trainCarManager = FindObjectOfType<TrainCarManager>();
     }
 
     private void Update()
     {
-        // Check if the player clicks on the start point
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null && hit.collider.transform == startPoint)
+
+            if (hit.collider != null)
             {
-                startPointClicked = true;
+                if (hit.collider.transform == startPoint)
+                {
+                    startPointClicked = true;
+                }
+                else if (hit.collider.transform == endPoint)
+                {
+                    endPointClicked = true;
+                }
             }
         }
 
-        // Check if the player clicks on the end point
-        if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null && hit.collider.transform == endPoint)
-            {
-                endPointClicked = true;
-            }
-        }
-
-        // If both start and end points are clicked, build the route
         if (startPointClicked && endPointClicked)
         {
             BuildRoute();
         }
     }
 
-    void BuildRoute()
+    private void BuildRoute()
     {
         lineRenderer.startWidth = routeWidth;
         lineRenderer.endWidth = routeWidth;
@@ -84,12 +71,8 @@ public class RouteBuilder : MonoBehaviour
         lineRenderer.positionCount = 2;
         lineRenderer.SetPositions(positions);
 
-        // Calculate the required train cars based on the distance between start and end points
-        float routeDistance = Vector3.Distance(startPointPosition, endPointPosition);
-        int requiredTrainCars = CalculateRequiredTrainCars(routeDistance);
+        int requiredTrainCars = CalculateRequiredTrainCars(Vector3.Distance(startPointPosition, endPointPosition));
 
-        // Subtract train cars from the respective player's group
-        TrainCarManager trainCarManager = FindObjectOfType<TrainCarManager>();
         if (trainCarManager != null)
         {
             if (trainCarManager.isPlayer1Active)
@@ -101,13 +84,10 @@ public class RouteBuilder : MonoBehaviour
                 trainCarManager.SubtractTrainCars(trainCarManager.player2Cars, requiredTrainCars);
             }
         }
-
-        pointScoringSystem.RouteBuilt(requiredTrainCars);
     }
 
     private int CalculateRequiredTrainCars(float routeDistance)
     {
-        // Define the train car requirements based on the route distance
         if (routeDistance <= 2f)
         {
             return 1;
@@ -133,37 +113,4 @@ public class RouteBuilder : MonoBehaviour
             return 6;
         }
     }
-
-    private int CalculatePointsReward(int trainCarsCount)
-    {
-        int points = 0;
-
-        switch (trainCarsCount)
-        {
-            case 1:
-                points = 1;
-                break;
-            case 2:
-                points = 2;
-                break;
-            case 3:
-                points = 4;
-                break;
-            case 4:
-                points = 7;
-                break;
-            case 5:
-                points = 10;
-                break;
-            case 6:
-                points = 15;
-                break;
-            default:
-                points = 0;
-                break;
-        }
-
-        return points;
-    }
-
 }
