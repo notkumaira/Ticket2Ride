@@ -10,10 +10,10 @@ public class PointScoringSystem : MonoBehaviour
     private int totalPoints = 0;
 
     // Called when a route is built
-    public void RouteBuilt()
+    public void RouteBuilt(int points)
     {
-        totalPoints += pointsPerRoute;
-        Debug.Log("Route built! +" + pointsPerRoute + " points");
+        totalPoints += points;
+        Debug.Log("Route built! +" + points + " points");
     }
 
     // Called when a destination card is completed

@@ -8,8 +8,14 @@ public class TrainCarManager : MonoBehaviour
 
     public bool isPlayer1Active = true;
 
+    private int player1RemainingTrainCars;
+    private int player2RemainingTrainCars;
+
     private void Start()
     {
+        player1RemainingTrainCars = player1Cars.transform.childCount;
+        player2RemainingTrainCars = player2Cars.transform.childCount;
+
         ActivatePlayerCars(player1Cars);
         DeactivatePlayerCars(player2Cars);
         winScreen.SetActive(false);
@@ -34,33 +40,46 @@ public class TrainCarManager : MonoBehaviour
         }
     }
 
-    public void RouteClaimed()
+    public void RouteClaimed(int routeLength)
     {
         if (isPlayer1Active)
         {
-            SubtractTrainCars(player1Cars);
+            SubtractTrainCars(player1Cars, routeLength);
         }
         else
         {
-            SubtractTrainCars(player2Cars);
+            SubtractTrainCars(player2Cars, routeLength);
         }
 
         CheckWinCondition();
     }
 
-    private void SubtractTrainCars(GameObject group)
+    public void SubtractTrainCars(GameObject group, int count)
     {
         int remainingTrainCars = group.transform.childCount;
-        if (remainingTrainCars > 0)
+        int carsToDestroy = Mathf.Min(count, remainingTrainCars);
+
+        for (int i = 0; i < carsToDestroy; i++)
         {
-            Transform lastTrainCar = group.transform.GetChild(remainingTrainCars - 1);
+            Transform lastTrainCar = group.transform.GetChild(remainingTrainCars - 1 - i);
             Destroy(lastTrainCar.gameObject);
+        }
+
+        // Update the remaining train cars count
+        if (group == player1Cars)
+        {
+            player1RemainingTrainCars -= carsToDestroy;
+        }
+        else if (group == player2Cars)
+        {
+            player2RemainingTrainCars -= carsToDestroy;
         }
     }
 
+
     private void CheckWinCondition()
     {
-        if (player1Cars.transform.childCount <= 2 || player2Cars.transform.childCount <= 2)
+        if (player1RemainingTrainCars <= 2 || player2RemainingTrainCars <= 2)
         {
             ShowWinScreen();
         }
