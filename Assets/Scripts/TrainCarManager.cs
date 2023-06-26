@@ -70,7 +70,7 @@ public class TrainCarManager : MonoBehaviour
         }
     }
 
-    private void ShowWinScreen()
+    public void ShowWinScreen()
     {
         winScreen.SetActive(true);
     }

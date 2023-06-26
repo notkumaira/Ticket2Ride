@@ -487,12 +487,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1997614672}
+  endPoint: {fileID: 344454810}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &33523431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,12 +1501,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 311680779}
+  endPoint: {fileID: 254647064}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &78299219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,12 +1819,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1199577502}
+  endPoint: {fileID: 767184298}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &86940162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2118,12 +2118,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2050257877}
+  endPoint: {fileID: 1140900811}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &112314667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,8 +2459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 254647064}
+  endPoint: {fileID: 1192687720}
   routeWidth: 0.5
   routeLength: 10
   requiredTrainCars: 0
@@ -3184,12 +3184,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1171080557}
+  endPoint: {fileID: 1163630253}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &233515081
 GameObject:
   m_ObjectHideFlags: 0
@@ -4450,12 +4450,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 579104816}
+  endPoint: {fileID: 1102143930}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &329148537
 GameObject:
   m_ObjectHideFlags: 0
@@ -4997,12 +4997,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1171080557}
+  endPoint: {fileID: 2050257877}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &344454809
 GameObject:
   m_ObjectHideFlags: 0
@@ -5618,12 +5618,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1447580123}
+  endPoint: {fileID: 1163630253}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &361489593
 GameObject:
   m_ObjectHideFlags: 0
@@ -5836,9 +5836,9 @@ MonoBehaviour:
   startPoint: {fileID: 0}
   endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 8
+  requiredTrainCars: 8
+  pointsReward: 20
 --- !u!1 &405398904
 GameObject:
   m_ObjectHideFlags: 0
@@ -6207,12 +6207,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1307872527}
+  endPoint: {fileID: 66470086}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &422408472
 GameObject:
   m_ObjectHideFlags: 0
@@ -6275,12 +6275,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2050257877}
+  endPoint: {fileID: 1171080557}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &429405159
 GameObject:
   m_ObjectHideFlags: 0
@@ -6569,12 +6569,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1812920386}
+  endPoint: {fileID: 2049448057}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &439641394
 GameObject:
   m_ObjectHideFlags: 0
@@ -7050,12 +7050,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1402958526}
+  endPoint: {fileID: 1342071025}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &468125877
 GameObject:
   m_ObjectHideFlags: 0
@@ -7208,12 +7208,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1880741264}
+  endPoint: {fileID: 84485095}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &474268105
 GameObject:
   m_ObjectHideFlags: 0
@@ -7275,12 +7275,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 574736378}
+  endPoint: {fileID: 1232493124}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &481895562
 GameObject:
   m_ObjectHideFlags: 0
@@ -7368,12 +7368,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1787535606}
+  endPoint: {fileID: 911329849}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &485813887
 GameObject:
   m_ObjectHideFlags: 0
@@ -7657,8 +7657,8 @@ Transform:
   - {fileID: 710444171}
   - {fileID: 958723326}
   - {fileID: 1720332474}
-  - {fileID: 838993744}
   - {fileID: 1564666624}
+  - {fileID: 838993744}
   - {fileID: 2142988324}
   - {fileID: 607619114}
   - {fileID: 1914847886}
@@ -8764,12 +8764,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1447580123}
+  endPoint: {fileID: 2038537636}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 1
+  requiredTrainCars: 1
+  pointsReward: 1
 --- !u!1 &555938153
 GameObject:
   m_ObjectHideFlags: 0
@@ -9003,12 +9003,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 52668123}
+  endPoint: {fileID: 1163630253}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &565795253
 GameObject:
   m_ObjectHideFlags: 0
@@ -9185,12 +9185,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1342071025}
+  endPoint: {fileID: 1887424779}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &574736377
 GameObject:
   m_ObjectHideFlags: 0
@@ -9499,12 +9499,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2007726902}
+  endPoint: {fileID: 298057181}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &593764682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9685,12 +9685,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1171080557}
+  endPoint: {fileID: 2047595369}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &607782404
 GameObject:
   m_ObjectHideFlags: 0
@@ -9842,12 +9842,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1860582346}
+  endPoint: {fileID: 1140900811}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &624208675
 GameObject:
   m_ObjectHideFlags: 0
@@ -9908,12 +9908,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 148559653}
+  endPoint: {fileID: 792419276}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &636404112
 GameObject:
   m_ObjectHideFlags: 0
@@ -10329,12 +10329,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 52668123}
+  endPoint: {fileID: 1273920721}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &669352555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10518,12 +10518,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1748036514}
+  endPoint: {fileID: 148559653}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &674988673
 GameObject:
   m_ObjectHideFlags: 0
@@ -10993,12 +10993,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 344454810}
+  endPoint: {fileID: 311680779}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 1
+  requiredTrainCars: 1
+  pointsReward: 1
 --- !u!114 &693729485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11129,12 +11129,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1860582346}
+  endPoint: {fileID: 1307872527}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &697778994
 GameObject:
   m_ObjectHideFlags: 0
@@ -11457,12 +11457,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 911329849}
+  endPoint: {fileID: 1199577502}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 6
+  requiredTrainCars: 6
+  pointsReward: 10
 --- !u!1 &711466038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11766,12 +11766,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1880741264}
+  endPoint: {fileID: 2038537636}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &722598775
 GameObject:
   m_ObjectHideFlags: 0
@@ -12117,12 +12117,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1887424779}
+  endPoint: {fileID: 339300572}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &727185926
 GameObject:
   m_ObjectHideFlags: 0
@@ -12443,12 +12443,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1860582346}
+  endPoint: {fileID: 1997614672}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &737004612
 GameObject:
   m_ObjectHideFlags: 0
@@ -12565,12 +12565,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1997614672}
+  endPoint: {fileID: 2050257877}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 1
+  requiredTrainCars: 1
+  pointsReward: 1
 --- !u!1 &741314403
 GameObject:
   m_ObjectHideFlags: 0
@@ -12697,12 +12697,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1273920721}
+  endPoint: {fileID: 2038537636}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &749283367
 GameObject:
   m_ObjectHideFlags: 0
@@ -14009,12 +14009,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1342071025}
+  endPoint: {fileID: 298057181}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &811319939
 GameObject:
   m_ObjectHideFlags: 0
@@ -14074,12 +14074,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2050257877}
+  endPoint: {fileID: 344454810}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &813267446
 GameObject:
   m_ObjectHideFlags: 0
@@ -14256,12 +14256,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1140900811}
+  endPoint: {fileID: 148559653}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &825998435
 GameObject:
   m_ObjectHideFlags: 0
@@ -14449,12 +14449,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 84485095}
+  endPoint: {fileID: 767184298}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!4 &828858954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7321112321872940973, guid: 5be8548b99c0f9a42b711b3b305517a1, type: 3}
@@ -14617,7 +14617,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838993743}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14626,7 +14626,7 @@ Transform:
   - {fileID: 814321956}
   - {fileID: 2031909637}
   m_Father: {fileID: 494906846}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &838993745
 MonoBehaviour:
@@ -14652,12 +14652,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1880741264}
+  endPoint: {fileID: 1273920721}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &840311309
 GameObject:
   m_ObjectHideFlags: 0
@@ -14961,12 +14961,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1997614672}
+  endPoint: {fileID: 1307872527}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &862303038
 GameObject:
   m_ObjectHideFlags: 0
@@ -15329,12 +15329,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1503537868}
+  endPoint: {fileID: 1232493124}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &892337316
 GameObject:
   m_ObjectHideFlags: 0
@@ -15564,12 +15564,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2007726902}
+  endPoint: {fileID: 84485095}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!4 &899044821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1913269557641516802, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
@@ -15634,12 +15634,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 579104816}
+  endPoint: {fileID: 961759439}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &906972243
 GameObject:
   m_ObjectHideFlags: 0
@@ -15951,12 +15951,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1812920386}
+  endPoint: {fileID: 2049448057}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &910638500
 GameObject:
   m_ObjectHideFlags: 0
@@ -16797,12 +16797,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2050257877}
+  endPoint: {fileID: 254647064}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &948840089
 GameObject:
   m_ObjectHideFlags: 0
@@ -16991,12 +16991,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1199577502}
+  endPoint: {fileID: 339300572}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &961532073
 GameObject:
   m_ObjectHideFlags: 0
@@ -17970,12 +17970,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2066483771}
+  endPoint: {fileID: 1503537868}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1039192552
 GameObject:
   m_ObjectHideFlags: 0
@@ -18152,12 +18152,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1860582346}
+  endPoint: {fileID: 2050257877}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1048467215
 GameObject:
   m_ObjectHideFlags: 0
@@ -18218,12 +18218,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1307872527}
+  endPoint: {fileID: 311680779}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1051742141
 GameObject:
   m_ObjectHideFlags: 0
@@ -19336,12 +19336,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 786665847}
+  endPoint: {fileID: 1232493124}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1129058571
 GameObject:
   m_ObjectHideFlags: 0
@@ -19967,12 +19967,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1140900811}
+  endPoint: {fileID: 148559653}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1170128074
 GameObject:
   m_ObjectHideFlags: 0
@@ -20397,12 +20397,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1447580123}
+  endPoint: {fileID: 1273920721}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1186283880
 GameObject:
   m_ObjectHideFlags: 0
@@ -21076,12 +21076,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2050257877}
+  endPoint: {fileID: 1140900811}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1215119971
 GameObject:
   m_ObjectHideFlags: 0
@@ -21659,12 +21659,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1307872527}
+  endPoint: {fileID: 66470086}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1268210465
 GameObject:
   m_ObjectHideFlags: 0
@@ -22405,12 +22405,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2050257877}
+  endPoint: {fileID: 254647064}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1306098822
 GameObject:
   m_ObjectHideFlags: 0
@@ -24264,12 +24264,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 298057181}
+  endPoint: {fileID: 1887424779}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1409626702
 GameObject:
   m_ObjectHideFlags: 0
@@ -24841,12 +24841,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 254647064}
+  endPoint: {fileID: 1163630253}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1438275081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
@@ -25155,12 +25155,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2047595369}
+  endPoint: {fileID: 1140900811}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1461431801
 GameObject:
   m_ObjectHideFlags: 0
@@ -25869,12 +25869,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2050257877}
+  endPoint: {fileID: 344454810}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1484460622
 GameObject:
   m_ObjectHideFlags: 0
@@ -26060,12 +26060,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 574736378}
+  endPoint: {fileID: 579104816}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1499552760
 GameObject:
   m_ObjectHideFlags: 0
@@ -26852,7 +26852,7 @@ Transform:
   - {fileID: 805108752}
   - {fileID: 1733677374}
   m_Father: {fileID: 494906846}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1564666625
 MonoBehaviour:
@@ -26878,12 +26878,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1787535606}
+  endPoint: {fileID: 1063339062}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1565819975
 GameObject:
   m_ObjectHideFlags: 0
@@ -27129,12 +27129,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2066483771}
+  endPoint: {fileID: 786665847}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1578309136
 GameObject:
   m_ObjectHideFlags: 0
@@ -27426,12 +27426,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1102143930}
+  endPoint: {fileID: 1402958526}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1600123835
 GameObject:
   m_ObjectHideFlags: 0
@@ -27862,12 +27862,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1232493124}
+  endPoint: {fileID: 961759439}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1611006573
 GameObject:
   m_ObjectHideFlags: 0
@@ -28392,12 +28392,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 961759439}
+  endPoint: {fileID: 1836047859}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1651375746
 GameObject:
   m_ObjectHideFlags: 0
@@ -28573,12 +28573,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1748036514}
+  endPoint: {fileID: 148559653}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1656601576
 GameObject:
   m_ObjectHideFlags: 0
@@ -29998,12 +29998,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 942193591}
+  endPoint: {fileID: 1880741264}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1723423856
 GameObject:
   m_ObjectHideFlags: 0
@@ -30332,12 +30332,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2049448057}
+  endPoint: {fileID: 967271506}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1743564847
 GameObject:
   m_ObjectHideFlags: 0
@@ -30426,12 +30426,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1787535606}
+  endPoint: {fileID: 942193591}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1747219851
 GameObject:
   m_ObjectHideFlags: 0
@@ -30985,12 +30985,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2038537636}
+  endPoint: {fileID: 2007726902}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1776219332
 GameObject:
   m_ObjectHideFlags: 0
@@ -32525,12 +32525,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1447580123}
+  endPoint: {fileID: 2038537636}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 1
+  requiredTrainCars: 1
+  pointsReward: 1
 --- !u!114 &1836681589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32690,11 +32690,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 1063339062}
-  endPoint: {fileID: 0}
+  endPoint: {fileID: 911329849}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1842332051
 GameObject:
   m_ObjectHideFlags: 0
@@ -32755,12 +32755,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 942193591}
+  endPoint: {fileID: 1199577502}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1849770031
 GameObject:
   m_ObjectHideFlags: 0
@@ -33656,12 +33656,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 148559653}
+  endPoint: {fileID: 1387503762}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1901346148
 GameObject:
   m_ObjectHideFlags: 0
@@ -33722,12 +33722,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 339300572}
+  endPoint: {fileID: 767184298}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1908807234
 GameObject:
   m_ObjectHideFlags: 0
@@ -33912,12 +33912,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1171080557}
+  endPoint: {fileID: 52668123}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &1917085258
 GameObject:
   m_ObjectHideFlags: 0
@@ -34954,12 +34954,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 298057181}
+  endPoint: {fileID: 767184298}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1982251275
 GameObject:
   m_ObjectHideFlags: 0
@@ -35098,12 +35098,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 84485095}
+  endPoint: {fileID: 942193591}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &1985897099
 GameObject:
   m_ObjectHideFlags: 0
@@ -35166,12 +35166,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1402958526}
+  endPoint: {fileID: 298057181}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &1994661755
 GameObject:
   m_ObjectHideFlags: 0
@@ -35627,12 +35627,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 344454810}
+  endPoint: {fileID: 254647064}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &2007726901
 GameObject:
   m_ObjectHideFlags: 0
@@ -36654,12 +36654,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1503537868}
+  endPoint: {fileID: 574736378}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &2039688052
 GameObject:
   m_ObjectHideFlags: 0
@@ -37689,12 +37689,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2007726902}
+  endPoint: {fileID: 767184298}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &2088970921
 GameObject:
   m_ObjectHideFlags: 0
@@ -38190,12 +38190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2109090616}
+  endPoint: {fileID: 1102143930}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!1 &2114287449
 GameObject:
   m_ObjectHideFlags: 0
@@ -38256,12 +38256,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 311680779}
+  endPoint: {fileID: 1812920386}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &2114696192
 GameObject:
   m_ObjectHideFlags: 0
@@ -38752,12 +38752,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1192687720}
+  endPoint: {fileID: 2066483771}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 4
+  requiredTrainCars: 4
+  pointsReward: 7
 --- !u!4 &2131459932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6316556162555149439, guid: 1ec9b8f60ec08f642b1bddd23382f703, type: 3}
@@ -38967,12 +38967,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 2049448057}
+  endPoint: {fileID: 967271506}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 3
+  requiredTrainCars: 3
+  pointsReward: 4
 --- !u!1 &2142988323
 GameObject:
   m_ObjectHideFlags: 0
@@ -39032,12 +39032,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 1063339062}
+  endPoint: {fileID: 52668123}
   routeWidth: 0.5
-  routeLength: 10
-  requiredTrainCars: 0
-  pointsReward: 0
+  routeLength: 2
+  requiredTrainCars: 2
+  pointsReward: 2
 --- !u!1 &2146818984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2345431096028395432, guid: fbde02c5eee66b94eabc47cc21e06120, type: 3}
