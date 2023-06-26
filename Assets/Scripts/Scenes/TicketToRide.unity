@@ -4038,6 +4038,58 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 13, y: 5.5}
   m_EdgeRadius: 0
+--- !u!1 &298035563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 298035565}
+  - component: {fileID: 298035564}
+  m_Layer: 0
+  m_Name: TrainCarManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &298035564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298035563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a4bc7e0f96f26408f5d9fc9b20276e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1Cars: {fileID: 1727307243}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  winScreen: {fileID: 6288913567827429725, guid: 5e99f0456e8d76243906c7ec083cc140, type: 3}
+  isPlayer1Active: 1
+  player1LongestRouteLength: 0
+  player2LongestRouteLength: 0
+  player1CarCount: 45
+  player2CarCount: 45
+--- !u!4 &298035565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298035563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.060913, y: 1.7095337, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &298057180
 GameObject:
   m_ObjectHideFlags: 0
@@ -7776,7 +7828,7 @@ RectTransform:
   - {fileID: 1538549200}
   - {fileID: 1982251276}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8052,7 +8104,7 @@ Transform:
   - {fileID: 767976230}
   - {fileID: 84099463}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &499411333
 GameObject:
@@ -10353,7 +10405,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &636404115
 MonoBehaviour:
@@ -13493,58 +13545,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
---- !u!1 &755653558
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 755653560}
-  - component: {fileID: 755653559}
-  m_Layer: 0
-  m_Name: TrainCarManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &755653559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755653558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f30d169866f922941ac2808fea44efe9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blueTrainCarPrefab: {fileID: 1946204550}
-  redTrainCarPrefab: {fileID: 645078590}
-  greenTrainCarPrefab: {fileID: 1438275081}
-  yellowTrainCarPrefab: {fileID: 1727307243}
-  trainCarSpawnPoint: {fileID: 835101849}
-  numberOfCars: 45
-  player1ColorText: {fileID: 1357190471}
-  player2ColorText: {fileID: 1361009723}
---- !u!4 &755653560
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755653558}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3364923, y: -0.71717095, z: 0.22371069}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &758139897
 GameObject:
   m_ObjectHideFlags: 0
@@ -19170,7 +19170,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1055848681
 GameObject:
@@ -22506,7 +22506,7 @@ Transform:
   m_Children:
   - {fileID: 1726722323}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1265104883
 GameObject:
@@ -25266,7 +25266,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1409626705
 MonoBehaviour:
@@ -27749,58 +27749,6 @@ MonoBehaviour:
   player1Cars: {fileID: 0}
   player2Cars: {fileID: 0}
   trainCarManager: {fileID: 0}
---- !u!1 &1536608190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1536608192}
-  - component: {fileID: 1536608191}
-  m_Layer: 0
-  m_Name: TrainCarManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1536608191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1536608190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a4bc7e0f96f26408f5d9fc9b20276e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player1Cars: {fileID: 645078590}
-  player2Cars: {fileID: 1946204550}
-  winScreen: {fileID: 2066048145}
-  isPlayer1Active: 1
-  player1LongestRouteLength: 0
-  player2LongestRouteLength: 0
-  player1CarCount: 45
-  player2CarCount: 45
---- !u!4 &1536608192
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1536608190}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.29, y: -4.14, z: 0.22225714}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1538549199
 GameObject:
   m_ObjectHideFlags: 0
@@ -30228,7 +30176,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1657672028440278251, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1657672028440278251, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30278,10 +30226,6 @@ PrefabInstance:
       propertyPath: player1Hand
       value: 
       objectReference: {fileID: 131813478}
-    - target: {fileID: 8510299380936883129, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
-      propertyPath: player2Hand
-      value: 
-      objectReference: {fileID: 364860356}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
 --- !u!1 &1681737020
@@ -34870,7 +34814,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1898290182
 GameObject:
@@ -40613,7 +40557,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1657672028440278251, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1657672028440278251, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40659,6 +40603,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1Hand
       objectReference: {fileID: 0}
+    - target: {fileID: 7343378385018923551, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510299380936883129, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
+      propertyPath: player1Hand
+      value: 
+      objectReference: {fileID: 131813478}
     - target: {fileID: 8510299380936883129, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
       propertyPath: player2Hand
       value: 

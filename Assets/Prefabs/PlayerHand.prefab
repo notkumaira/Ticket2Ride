@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cb1f8204bc22cc44871a969f966dc9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1Hand: {fileID: 7343378385018923551}
-  player2Hand: {fileID: 0}
+  player1Hand: {fileID: 0}
+  player2Hand: {fileID: 7343378385018923551}
 --- !u!1001 &3172983030543303705
 PrefabInstance:
   m_ObjectHideFlags: 0

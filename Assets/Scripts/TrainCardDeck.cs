@@ -118,6 +118,11 @@ public class TrainCardDeck : MonoBehaviour
                 MoveCardToHandPosition(randomCard, player1HandParent, player1Hand);
                 player1AvailableHandPositions[player1HandCount] = false;
             }
+            else if (player2HandPrefab.activeSelf && player2AvailableHandPositions[player2HandCount])
+            {
+                MoveCardToHandPosition(randomCard, player2HandParent, player2Hand);
+                player2AvailableHandPositions[player2HandCount] = false;
+            }
         }
         else if (player2HandCount < player2AvailableHandPositions.Length)
         {
@@ -127,12 +132,15 @@ public class TrainCardDeck : MonoBehaviour
                 MoveCardToHandPosition(randomCard, player2HandParent, player2Hand);
                 player2AvailableHandPositions[player2HandCount] = false;
             }
+            else if (player1HandPrefab.activeSelf && player1AvailableHandPositions[player1HandCount])
+            {
+                MoveCardToHandPosition(randomCard, player1HandParent, player1Hand);
+                player1AvailableHandPositions[player1HandCount] = false;
+            }
         }
 
         currentCardIndex++;
     }
-
-
 
     public void MoveCardToHandPosition(TrainCard card, Transform handParent, List<TrainCard> hand)
     {
@@ -150,7 +158,6 @@ public class TrainCardDeck : MonoBehaviour
         }
 
         hand.Add(card);
-        currentCardIndex++;
     }
 
     private void Update()
@@ -215,5 +222,4 @@ public class TrainCardDeck : MonoBehaviour
             player2HandPrefab.SetActive(true);
         }
     }
-
 }
