@@ -21,20 +21,5 @@ public class WhiteRoutes : MonoBehaviour
             }
         }
 
-        // Example usage
-        if (inventorySystem != null)
-        {
-            inventorySystem.SubtractAllocatedTrainCars("Player2", 4);
-        }
-        else
-        {
-            Debug.LogWarning("InventorySystem not found in the scene.");
-        }
-    }
-
-    public void SelectRoute()
-    {
-        // Subtract the number of white train cards from the player's inventory
-        InventorySystem.instance.SubtractAllocatedTrainCars("Player1", whiteTrainCardCount);
     }
 }
