@@ -439,7 +439,6 @@ GameObject:
   - component: {fileID: 31064676}
   - component: {fileID: 31064677}
   - component: {fileID: 31064678}
-  - component: {fileID: 31064679}
   m_Layer: 0
   m_Name: Dieppe Brux
   m_TagString: Untagged
@@ -494,19 +493,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &31064679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31064675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &33523431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,7 +1453,6 @@ GameObject:
   - component: {fileID: 73772359}
   - component: {fileID: 73772360}
   - component: {fileID: 73772361}
-  - component: {fileID: 73772362}
   m_Layer: 0
   m_Name: Amsterdam Frankfurt
   m_TagString: Untagged
@@ -1522,19 +1507,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &73772362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 73772358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &78299219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1604,7 +1576,6 @@ GameObject:
   - component: {fileID: 84099463}
   - component: {fileID: 84099464}
   - component: {fileID: 84099465}
-  - component: {fileID: 84099466}
   m_Layer: 0
   m_Name: Kyiv Bucuresti
   m_TagString: Untagged
@@ -1656,25 +1627,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 1836047859}
-  endPoint: {fileID: 2007726902}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 4
-  requiredTrainCars: 4
-  pointsReward: 7
---- !u!114 &84099466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84099462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &84485094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,7 +1765,6 @@ GameObject:
   - component: {fileID: 85584797}
   - component: {fileID: 85584798}
   - component: {fileID: 85584799}
-  - component: {fileID: 85584800}
   m_Layer: 0
   m_Name: Smyrna Constantinople
   m_TagString: Untagged
@@ -1863,19 +1820,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &85584800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 85584796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &86940162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,7 +2063,6 @@ GameObject:
   - component: {fileID: 108844310}
   - component: {fileID: 108844311}
   - component: {fileID: 108844312}
-  - component: {fileID: 108844313}
   m_Layer: 0
   m_Name: Paris Pampelona Twin
   m_TagString: Untagged
@@ -2176,19 +2119,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &108844313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108844309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &112314667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,7 +2405,6 @@ GameObject:
   - component: {fileID: 146287154}
   - component: {fileID: 146287155}
   - component: {fileID: 146287156}
-  - component: {fileID: 146287157}
   m_Layer: 0
   m_Name: Frankfurt Berlin
   m_TagString: Untagged
@@ -2528,22 +2457,9 @@ MonoBehaviour:
   startPoint: {fileID: 254647064}
   endPoint: {fileID: 1192687720}
   routeWidth: 0.5
-  routeLength: 3
-  requiredTrainCars: 3
-  pointsReward: 4
---- !u!114 &146287157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146287153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &148559652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2971,8 +2887,6 @@ GameObject:
   - component: {fileID: 209049711}
   - component: {fileID: 209049712}
   - component: {fileID: 209049713}
-  - component: {fileID: 209049715}
-  - component: {fileID: 209049714}
   m_Layer: 0
   m_Name: Kyiv Budapest
   m_TagString: Untagged
@@ -3026,38 +2940,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 1836047859}
-  endPoint: {fileID: 2038537636}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 6
-  requiredTrainCars: 6
-  pointsReward: 15
---- !u!114 &209049714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209049710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
---- !u!114 &209049715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209049710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &212063339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3243,7 +3131,6 @@ GameObject:
   - component: {fileID: 233102769}
   - component: {fileID: 233102770}
   - component: {fileID: 233102771}
-  - component: {fileID: 233102772}
   m_Layer: 0
   m_Name: Zurich Munchen
   m_TagString: Untagged
@@ -3298,19 +3185,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &233102772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233102768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &233515081
 GameObject:
   m_ObjectHideFlags: 0
@@ -4520,7 +4394,6 @@ GameObject:
   - component: {fileID: 324785730}
   - component: {fileID: 324785731}
   - component: {fileID: 324785732}
-  - component: {fileID: 324785733}
   m_Layer: 0
   m_Name: Moskva Kharkov
   m_TagString: Untagged
@@ -4578,19 +4451,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &324785733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324785729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &329148537
 GameObject:
   m_ObjectHideFlags: 0
@@ -5082,7 +4942,6 @@ GameObject:
   - component: {fileID: 342224889}
   - component: {fileID: 342224890}
   - component: {fileID: 342224891}
-  - component: {fileID: 342224892}
   m_Layer: 0
   m_Name: Zurich Paris
   m_TagString: Untagged
@@ -5139,19 +4998,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &342224892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 342224888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &344454809
 GameObject:
   m_ObjectHideFlags: 0
@@ -5713,7 +5559,6 @@ GameObject:
   - component: {fileID: 358280757}
   - component: {fileID: 358280758}
   - component: {fileID: 358280759}
-  - component: {fileID: 358280760}
   m_Layer: 0
   m_Name: Wein Munchen
   m_TagString: Untagged
@@ -5769,19 +5614,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &358280760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358280756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &361489593
 GameObject:
   m_ObjectHideFlags: 0
@@ -5857,10 +5689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cb1f8204bc22cc44871a969f966dc9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1TrainCards: []
-  player2TrainCards: []
-  player1DestinationTickets: []
-  player2DestinationTickets: []
+  player1Hand: {fileID: 918518107}
+  player2Hand: {fileID: 364860356}
 --- !u!1 &373075832
 GameObject:
   m_ObjectHideFlags: 0
@@ -5957,7 +5787,6 @@ GameObject:
   - component: {fileID: 387946485}
   - component: {fileID: 387946486}
   - component: {fileID: 387946487}
-  - component: {fileID: 387946488}
   m_Layer: 0
   m_Name: Stockholm Petrograd
   m_TagString: Untagged
@@ -6019,19 +5848,6 @@ MonoBehaviour:
   routeLength: 8
   requiredTrainCars: 8
   pointsReward: 20
---- !u!114 &387946488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387946484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &405398904
 GameObject:
   m_ObjectHideFlags: 0
@@ -6350,7 +6166,6 @@ GameObject:
   - component: {fileID: 416930654}
   - component: {fileID: 416930655}
   - component: {fileID: 416930656}
-  - component: {fileID: 416930657}
   m_Layer: 0
   m_Name: London Edinburgh Twin
   m_TagString: Untagged
@@ -6407,19 +6222,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &416930657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416930653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &422408472
 GameObject:
   m_ObjectHideFlags: 0
@@ -6431,7 +6233,6 @@ GameObject:
   - component: {fileID: 422408473}
   - component: {fileID: 422408474}
   - component: {fileID: 422408475}
-  - component: {fileID: 422408476}
   m_Layer: 0
   m_Name: Paris Marseille
   m_TagString: Untagged
@@ -6489,19 +6290,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &422408476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422408472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &429405159
 GameObject:
   m_ObjectHideFlags: 0
@@ -6740,7 +6528,6 @@ GameObject:
   - component: {fileID: 439328800}
   - component: {fileID: 439328801}
   - component: {fileID: 439328802}
-  - component: {fileID: 439328803}
   m_Layer: 0
   m_Name: Essen Kobenhaven Twin
   m_TagString: Untagged
@@ -6797,19 +6584,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &439328803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 439328799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &439641394
 GameObject:
   m_ObjectHideFlags: 0
@@ -7236,7 +7010,6 @@ GameObject:
   - component: {fileID: 455216262}
   - component: {fileID: 455216263}
   - component: {fileID: 455216264}
-  - component: {fileID: 455216265}
   m_Layer: 0
   m_Name: Rostov Sochi
   m_TagString: Untagged
@@ -7292,19 +7065,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &455216265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455216261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &468125877
 GameObject:
   m_ObjectHideFlags: 0
@@ -7317,7 +7077,6 @@ GameObject:
   - component: {fileID: 468125879}
   - component: {fileID: 468125880}
   - component: {fileID: 468125881}
-  - component: {fileID: 468125882}
   m_Layer: 0
   m_Name: Barcelona Pampelona
   m_TagString: Untagged
@@ -7398,19 +7157,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &468125882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468125877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &471014699
 GameObject:
   m_ObjectHideFlags: 0
@@ -7422,7 +7168,6 @@ GameObject:
   - component: {fileID: 471014700}
   - component: {fileID: 471014701}
   - component: {fileID: 471014702}
-  - component: {fileID: 471014703}
   m_Layer: 0
   m_Name: Sarajevo Sofia
   m_TagString: Untagged
@@ -7478,19 +7223,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &471014703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471014699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &474268105
 GameObject:
   m_ObjectHideFlags: 0
@@ -7502,7 +7234,6 @@ GameObject:
   - component: {fileID: 474268106}
   - component: {fileID: 474268107}
   - component: {fileID: 474268108}
-  - component: {fileID: 474268109}
   m_Layer: 0
   m_Name: Petrograd Wilno
   m_TagString: Untagged
@@ -7559,19 +7290,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &474268109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474268105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &481895562
 GameObject:
   m_ObjectHideFlags: 0
@@ -7584,7 +7302,6 @@ GameObject:
   - component: {fileID: 481895564}
   - component: {fileID: 481895565}
   - component: {fileID: 481895566}
-  - component: {fileID: 481895567}
   m_Layer: 0
   m_Name: Pallermo Brindisi
   m_TagString: Untagged
@@ -7666,19 +7383,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &481895567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 481895562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &485813887
 GameObject:
   m_ObjectHideFlags: 0
@@ -8871,7 +8575,6 @@ GameObject:
   - component: {fileID: 548403342}
   - component: {fileID: 548403343}
   - component: {fileID: 548403344}
-  - component: {fileID: 548403345}
   m_Layer: 0
   m_Name: Barcelona Marseille
   m_TagString: Untagged
@@ -8954,19 +8657,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &548403345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 548403340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &550140895
 GameObject:
   m_ObjectHideFlags: 0
@@ -9036,7 +8726,6 @@ GameObject:
   - component: {fileID: 555929206}
   - component: {fileID: 555929208}
   - component: {fileID: 555929207}
-  - component: {fileID: 555929209}
   m_Layer: 0
   m_Name: Wein Budapest Twin
   m_TagString: Untagged
@@ -9090,19 +8779,6 @@ MonoBehaviour:
   routeLength: 1
   requiredTrainCars: 1
   pointsReward: 1
---- !u!114 &555929209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555929205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &555938153
 GameObject:
   m_ObjectHideFlags: 0
@@ -9288,7 +8964,6 @@ GameObject:
   - component: {fileID: 560876001}
   - component: {fileID: 560876002}
   - component: {fileID: 560876003}
-  - component: {fileID: 560876004}
   m_Layer: 0
   m_Name: Venezia Munchen
   m_TagString: Untagged
@@ -9343,19 +9018,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &560876004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560876000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &565795253
 GameObject:
   m_ObjectHideFlags: 0
@@ -9483,7 +9145,6 @@ GameObject:
   - component: {fileID: 572669030}
   - component: {fileID: 572669031}
   - component: {fileID: 572669032}
-  - component: {fileID: 572669033}
   m_Layer: 0
   m_Name: Sochi Erzurum
   m_TagString: Untagged
@@ -9539,19 +9200,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &572669033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572669029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &574736377
 GameObject:
   m_ObjectHideFlags: 0
@@ -9810,7 +9458,6 @@ GameObject:
   - component: {fileID: 593421136}
   - component: {fileID: 593421137}
   - component: {fileID: 593421138}
-  - component: {fileID: 593421139}
   m_Layer: 0
   m_Name: Bucuresti Eevastopol
   m_TagString: Untagged
@@ -9867,19 +9514,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &593421139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593421135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &593764682
 GameObject:
   m_ObjectHideFlags: 0
@@ -10012,7 +9646,6 @@ GameObject:
   - component: {fileID: 607619114}
   - component: {fileID: 607619115}
   - component: {fileID: 607619116}
-  - component: {fileID: 607619117}
   m_Layer: 0
   m_Name: Zurich Marseille
   m_TagString: Untagged
@@ -10067,19 +9700,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &607619117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607619113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &607782404
 GameObject:
   m_ObjectHideFlags: 0
@@ -10165,6 +9785,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4382469566336558300, guid: cbff512c3cad3ad48b62095a2057f7e6, type: 3}
   m_PrefabInstance: {fileID: 5598673053529858080}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &619278397 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1913269558999781650, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
+  m_PrefabInstance: {fileID: 1913269557852422871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619678183
 GameObject:
   m_ObjectHideFlags: 0
@@ -10176,7 +9801,6 @@ GameObject:
   - component: {fileID: 619678184}
   - component: {fileID: 619678185}
   - component: {fileID: 619678186}
-  - component: {fileID: 619678187}
   m_Layer: 0
   m_Name: Brest Pampelona
   m_TagString: Untagged
@@ -10233,19 +9857,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &619678187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 619678183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &624208675
 GameObject:
   m_ObjectHideFlags: 0
@@ -10257,7 +9868,6 @@ GameObject:
   - component: {fileID: 624208676}
   - component: {fileID: 624208677}
   - component: {fileID: 624208678}
-  - component: {fileID: 624208679}
   m_Layer: 0
   m_Name: Madrid Lisboa
   m_TagString: Untagged
@@ -10313,19 +9923,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &624208679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624208675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &636404112
 GameObject:
   m_ObjectHideFlags: 0
@@ -10563,7 +10160,14 @@ MonoBehaviour:
   - {fileID: 837864852}
   - {fileID: 899044821}
   - {fileID: 313372079}
-  availableCardSlots: 
+  player1AvailableCardSlots: 010101
+  player2AvailableCardSlots: 010101
+  player1HandPrefab: {fileID: 918518107}
+  player2HandPrefab: {fileID: 364860356}
+  player1TicketParent: {fileID: 619278397}
+  player2TicketParent: {fileID: 1893250938}
+  player1Tickets: []
+  player2Tickets: []
 --- !u!4 &648235494
 Transform:
   m_ObjectHideFlags: 0
@@ -10705,8 +10309,6 @@ GameObject:
   m_Component:
   - component: {fileID: 669195716}
   - component: {fileID: 669195717}
-  - component: {fileID: 669195718}
-  - component: {fileID: 669195719}
   m_Layer: 0
   m_Name: Venezia Zacrab
   m_TagString: Untagged
@@ -10749,32 +10351,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &669195718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669195715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 436c6756c6b20da4baa83810a85a698d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trainCardColorTag: 
---- !u!114 &669195719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669195715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &669352555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10786,7 +10362,6 @@ GameObject:
   - component: {fileID: 669352556}
   - component: {fileID: 669352557}
   - component: {fileID: 669352558}
-  - component: {fileID: 669352559}
   m_Layer: 0
   m_Name: Essen Berlin
   m_TagString: Untagged
@@ -10835,25 +10410,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 1812920386}
-  endPoint: {fileID: 1192687720}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 2
-  requiredTrainCars: 2
-  pointsReward: 2
---- !u!114 &669352559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669352555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &670652775
 GameObject:
   m_ObjectHideFlags: 0
@@ -10923,7 +10485,6 @@ GameObject:
   - component: {fileID: 671240515}
   - component: {fileID: 671240516}
   - component: {fileID: 671240517}
-  - component: {fileID: 671240518}
   m_Layer: 0
   m_Name: Cadiz Madrid
   m_TagString: Untagged
@@ -10979,19 +10540,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &671240518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671240514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &674988673
 GameObject:
   m_ObjectHideFlags: 0
@@ -11426,7 +10974,6 @@ GameObject:
   - component: {fileID: 693729483}
   - component: {fileID: 693729485}
   - component: {fileID: 693729484}
-  - component: {fileID: 693729486}
   m_Layer: 0
   m_Name: Brux Amstedam
   m_TagString: Untagged
@@ -11480,19 +11027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &693729486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693729482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &694129562
 GameObject:
   m_ObjectHideFlags: 0
@@ -11562,7 +11096,6 @@ GameObject:
   - component: {fileID: 695992227}
   - component: {fileID: 695992228}
   - component: {fileID: 695992229}
-  - component: {fileID: 695992230}
   m_Layer: 0
   m_Name: Dieppe London Twin
   m_TagString: Untagged
@@ -11618,19 +11151,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &695992230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695992226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &697778994
 GameObject:
   m_ObjectHideFlags: 0
@@ -11723,7 +11243,6 @@ GameObject:
   - component: {fileID: 698370719}
   - component: {fileID: 698370720}
   - component: {fileID: 698370721}
-  - component: {fileID: 698370722}
   m_Layer: 0
   m_Name: Marseille Roma
   m_TagString: Untagged
@@ -11806,19 +11325,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &698370722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698370717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &705496979
 GameObject:
   m_ObjectHideFlags: 0
@@ -11889,7 +11395,6 @@ GameObject:
   - component: {fileID: 710444172}
   - component: {fileID: 710444173}
   - component: {fileID: 710444174}
-  - component: {fileID: 710444175}
   m_Layer: 0
   m_Name: Pallermo Smyrna
   m_TagString: Untagged
@@ -11973,20 +11478,7 @@ MonoBehaviour:
   routeWidth: 0.5
   routeLength: 6
   requiredTrainCars: 6
-  pointsReward: 15
---- !u!114 &710444175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710444170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  pointsReward: 10
 --- !u!1 &711466038
 GameObject:
   m_ObjectHideFlags: 0
@@ -12241,7 +11733,6 @@ GameObject:
   - component: {fileID: 720006163}
   - component: {fileID: 720006164}
   - component: {fileID: 720006165}
-  - component: {fileID: 720006166}
   m_Layer: 0
   m_Name: Sarajevo Budapest
   m_TagString: Untagged
@@ -12297,19 +11788,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &720006166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720006162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &722598775
 GameObject:
   m_ObjectHideFlags: 0
@@ -12604,9 +12082,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 727166376}
+  - component: {fileID: 727166377}
   - component: {fileID: 727166378}
-  - component: {fileID: 727166379}
-  - component: {fileID: 727166380}
   m_Layer: 0
   m_Name: Erzurum Ancora
   m_TagString: Untagged
@@ -12632,6 +12109,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &727166377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727166375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &727166378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12650,31 +12139,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &727166379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727166375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &727166380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727166375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &727185926
 GameObject:
   m_ObjectHideFlags: 0
@@ -12813,8 +12277,16 @@ MonoBehaviour:
   - {fileID: 723698910}
   - {fileID: 429500697}
   - {fileID: 892337317}
-  trainCardHandPositions: []
+  deck: []
+  player1AvailableHandPositions: 0000000000
+  player2AvailableHandPositions: 0000000000
+  player1HandPrefab: {fileID: 0}
+  player2HandPrefab: {fileID: 0}
   trainDeckButton: {fileID: 1394602004}
+  player1HandParent: {fileID: 0}
+  player2HandParent: {fileID: 0}
+  player1Hand: []
+  player2Hand: []
 --- !u!1 &727616775
 GameObject:
   m_ObjectHideFlags: 0
@@ -12942,7 +12414,6 @@ GameObject:
   - component: {fileID: 734966026}
   - component: {fileID: 734966027}
   - component: {fileID: 734966028}
-  - component: {fileID: 734966029}
   m_Layer: 0
   m_Name: Brest Dieppe
   m_TagString: Untagged
@@ -12997,19 +12468,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &734966029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734966025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &737004612
 GameObject:
   m_ObjectHideFlags: 0
@@ -13079,7 +12537,6 @@ GameObject:
   - component: {fileID: 737049455}
   - component: {fileID: 737049457}
   - component: {fileID: 737049456}
-  - component: {fileID: 737049458}
   m_Layer: 0
   m_Name: Dieppe Paris
   m_TagString: Untagged
@@ -13133,19 +12590,6 @@ MonoBehaviour:
   routeLength: 1
   requiredTrainCars: 1
   pointsReward: 1
---- !u!114 &737049458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737049454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &741314403
 GameObject:
   m_ObjectHideFlags: 0
@@ -13157,7 +12601,6 @@ GameObject:
   - component: {fileID: 741314404}
   - component: {fileID: 741314405}
   - component: {fileID: 741314406}
-  - component: {fileID: 741314407}
   m_Layer: 0
   m_Name: Berlin Warsaw
   m_TagString: Untagged
@@ -13208,25 +12651,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 1192687720}
-  endPoint: {fileID: 741314404}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 4
-  requiredTrainCars: 4
-  pointsReward: 7
---- !u!114 &741314407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741314403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &742316456
 GameObject:
   m_ObjectHideFlags: 0
@@ -13238,7 +12668,6 @@ GameObject:
   - component: {fileID: 742316457}
   - component: {fileID: 742316458}
   - component: {fileID: 742316459}
-  - component: {fileID: 742316460}
   m_Layer: 0
   m_Name: Zacrab Budapest
   m_TagString: Untagged
@@ -13293,19 +12722,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &742316460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742316456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &749283367
 GameObject:
   m_ObjectHideFlags: 0
@@ -13780,7 +13196,6 @@ GameObject:
   - component: {fileID: 767976230}
   - component: {fileID: 767976231}
   - component: {fileID: 767976232}
-  - component: {fileID: 767976233}
   m_Layer: 0
   m_Name: Wilno Kyiv
   m_TagString: Untagged
@@ -13830,25 +13245,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 1232493124}
-  endPoint: {fileID: 1836047859}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 2
-  requiredTrainCars: 2
-  pointsReward: 2
---- !u!114 &767976233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 767976229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &782729619
 GameObject:
   m_ObjectHideFlags: 0
@@ -14577,7 +13979,6 @@ GameObject:
   - component: {fileID: 811073646}
   - component: {fileID: 811073647}
   - component: {fileID: 811073648}
-  - component: {fileID: 811073649}
   m_Layer: 0
   m_Name: Sochi Eevastopol
   m_TagString: Untagged
@@ -14633,19 +14034,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &811073649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811073645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &811319939
 GameObject:
   m_ObjectHideFlags: 0
@@ -14657,7 +14045,6 @@ GameObject:
   - component: {fileID: 811319940}
   - component: {fileID: 811319941}
   - component: {fileID: 811319942}
-  - component: {fileID: 811319943}
   m_Layer: 0
   m_Name: Paris Brux Twin
   m_TagString: Untagged
@@ -14712,19 +14099,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &811319943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811319939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &813267446
 GameObject:
   m_ObjectHideFlags: 0
@@ -14852,7 +14226,6 @@ GameObject:
   - component: {fileID: 815051114}
   - component: {fileID: 815051115}
   - component: {fileID: 815051116}
-  - component: {fileID: 815051117}
   m_Layer: 0
   m_Name: Pampelona Madrid Twin
   m_TagString: Untagged
@@ -14908,19 +14281,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &815051117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815051113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &825998435
 GameObject:
   m_ObjectHideFlags: 0
@@ -15059,7 +14419,6 @@ GameObject:
   - component: {fileID: 826218207}
   - component: {fileID: 826218208}
   - component: {fileID: 826218209}
-  - component: {fileID: 826218210}
   m_Layer: 0
   m_Name: Sofia Constantinople
   m_TagString: Untagged
@@ -15115,19 +14474,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &826218210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826218206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!4 &828858954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7321112321872940973, guid: 5be8548b99c0f9a42b711b3b305517a1, type: 3}
@@ -15276,7 +14622,6 @@ GameObject:
   - component: {fileID: 838993744}
   - component: {fileID: 838993745}
   - component: {fileID: 838993746}
-  - component: {fileID: 838993747}
   m_Layer: 0
   m_Name: Sarajevo Zacrab
   m_TagString: Untagged
@@ -15332,19 +14677,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &838993747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 838993743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &840311309
 GameObject:
   m_ObjectHideFlags: 0
@@ -15599,7 +14931,6 @@ GameObject:
   - component: {fileID: 850278118}
   - component: {fileID: 850278119}
   - component: {fileID: 850278120}
-  - component: {fileID: 850278121}
   m_Layer: 0
   m_Name: Dieppe London
   m_TagString: Untagged
@@ -15655,19 +14986,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &850278121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850278117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &862303038
 GameObject:
   m_ObjectHideFlags: 0
@@ -15975,7 +15293,6 @@ GameObject:
   - component: {fileID: 886354312}
   - component: {fileID: 886354313}
   - component: {fileID: 886354314}
-  - component: {fileID: 886354315}
   m_Layer: 0
   m_Name: Rica Wilno
   m_TagString: Untagged
@@ -16032,19 +15349,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &886354315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886354311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &892337316
 GameObject:
   m_ObjectHideFlags: 0
@@ -16225,7 +15529,6 @@ GameObject:
   - component: {fileID: 895510796}
   - component: {fileID: 895510797}
   - component: {fileID: 895510798}
-  - component: {fileID: 895510799}
   m_Layer: 0
   m_Name: Bucuresti Sofia
   m_TagString: Untagged
@@ -16281,19 +15584,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &895510799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895510795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!4 &899044821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1913269557641516802, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
@@ -16310,7 +15600,6 @@ GameObject:
   - component: {fileID: 904854928}
   - component: {fileID: 904854929}
   - component: {fileID: 904854930}
-  - component: {fileID: 904854931}
   m_Layer: 0
   m_Name: Moskva Smolensk
   m_TagString: Untagged
@@ -16365,19 +15654,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &904854931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 904854927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &906972243
 GameObject:
   m_ObjectHideFlags: 0
@@ -16389,7 +15665,6 @@ GameObject:
   - component: {fileID: 906972244}
   - component: {fileID: 906972245}
   - component: {fileID: 906972246}
-  - component: {fileID: 906972247}
   m_Layer: 0
   m_Name: Essen Frankfurt
   m_TagString: Untagged
@@ -16438,25 +15713,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 1812920386}
-  endPoint: {fileID: 254647064}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 2
-  requiredTrainCars: 2
-  pointsReward: 2
---- !u!114 &906972247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906972243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &907074711
 GameObject:
   m_ObjectHideFlags: 0
@@ -16653,7 +15915,6 @@ GameObject:
   - component: {fileID: 909823453}
   - component: {fileID: 909823454}
   - component: {fileID: 909823455}
-  - component: {fileID: 909823456}
   m_Layer: 0
   m_Name: Essen Kobenhaven
   m_TagString: Untagged
@@ -16710,19 +15971,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &909823456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909823452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &910638500
 GameObject:
   m_ObjectHideFlags: 0
@@ -16919,10 +16167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cb1f8204bc22cc44871a969f966dc9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1TrainCards: []
-  player2TrainCards: []
-  player1DestinationTickets: []
-  player2DestinationTickets: []
+  player1Hand: {fileID: 918518107}
+  player2Hand: {fileID: 364860356}
 --- !u!1 &919069734
 GameObject:
   m_ObjectHideFlags: 0
@@ -17530,7 +16776,6 @@ GameObject:
   - component: {fileID: 943633343}
   - component: {fileID: 943633344}
   - component: {fileID: 943633345}
-  - component: {fileID: 943633346}
   m_Layer: 0
   m_Name: Paris Frankfurt
   m_TagString: Untagged
@@ -17586,19 +16831,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &943633346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 943633342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &948840089
 GameObject:
   m_ObjectHideFlags: 0
@@ -17726,7 +16958,6 @@ GameObject:
   - component: {fileID: 958723326}
   - component: {fileID: 958723327}
   - component: {fileID: 958723328}
-  - component: {fileID: 958723329}
   m_Layer: 0
   m_Name: Smyrna Ancora
   m_TagString: Untagged
@@ -17794,19 +17025,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &958723329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 958723325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &961532073
 GameObject:
   m_ObjectHideFlags: 0
@@ -18729,9 +17947,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1031443079}
+  - component: {fileID: 1031443080}
   - component: {fileID: 1031443081}
-  - component: {fileID: 1031443082}
-  - component: {fileID: 1031443083}
   m_Layer: 0
   m_Name: Danzic Rica
   m_TagString: Untagged
@@ -18757,6 +17974,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1031443080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1031443081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18775,31 +18004,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1031443082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031443078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1031443083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031443078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1039192552
 GameObject:
   m_ObjectHideFlags: 0
@@ -18925,9 +18129,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1044498669}
+  - component: {fileID: 1044498670}
   - component: {fileID: 1044498671}
-  - component: {fileID: 1044498672}
-  - component: {fileID: 1044498673}
   m_Layer: 0
   m_Name: Brest Paris
   m_TagString: Untagged
@@ -18953,6 +18156,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1044498670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044498668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1044498671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18971,31 +18186,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1044498672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044498668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1044498673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044498668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1048467215
 GameObject:
   m_ObjectHideFlags: 0
@@ -19007,7 +18197,6 @@ GameObject:
   - component: {fileID: 1048467216}
   - component: {fileID: 1048467217}
   - component: {fileID: 1048467218}
-  - component: {fileID: 1048467219}
   m_Layer: 0
   m_Name: London Amsterdam
   m_TagString: Untagged
@@ -19063,19 +18252,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1048467219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048467215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1051742141
 GameObject:
   m_ObjectHideFlags: 0
@@ -20139,7 +19315,6 @@ GameObject:
   - component: {fileID: 1126495765}
   - component: {fileID: 1126495766}
   - component: {fileID: 1126495767}
-  - component: {fileID: 1126495768}
   m_Layer: 0
   m_Name: Warsaw Wilno
   m_TagString: Untagged
@@ -20195,19 +19370,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1126495768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1126495764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1129058571
 GameObject:
   m_ObjectHideFlags: 0
@@ -20784,7 +19946,6 @@ GameObject:
   - component: {fileID: 1165988603}
   - component: {fileID: 1165988604}
   - component: {fileID: 1165988605}
-  - component: {fileID: 1165988606}
   m_Layer: 0
   m_Name: Pampelona Madrid
   m_TagString: Untagged
@@ -20840,19 +20001,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1165988606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1165988602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1170128074
 GameObject:
   m_ObjectHideFlags: 0
@@ -21228,7 +20376,6 @@ GameObject:
   - component: {fileID: 1185601107}
   - component: {fileID: 1185601108}
   - component: {fileID: 1185601109}
-  - component: {fileID: 1185601110}
   m_Layer: 0
   m_Name: Wein Zacrab
   m_TagString: Untagged
@@ -21284,19 +20431,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1185601110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185601106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1186283880
 GameObject:
   m_ObjectHideFlags: 0
@@ -21920,7 +21054,6 @@ GameObject:
   - component: {fileID: 1214471842}
   - component: {fileID: 1214471843}
   - component: {fileID: 1214471844}
-  - component: {fileID: 1214471845}
   m_Layer: 0
   m_Name: Paris Pampelona
   m_TagString: Untagged
@@ -21977,19 +21110,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1214471845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1214471841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1215119971
 GameObject:
   m_ObjectHideFlags: 0
@@ -22515,9 +21635,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1265104884}
+  - component: {fileID: 1265104885}
   - component: {fileID: 1265104886}
-  - component: {fileID: 1265104887}
-  - component: {fileID: 1265104888}
   m_Layer: 0
   m_Name: London Edinburgh
   m_TagString: Untagged
@@ -22544,6 +21663,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1265104885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265104883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1265104886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22562,31 +21693,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1265104887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265104883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1265104888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265104883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1268210465
 GameObject:
   m_ObjectHideFlags: 0
@@ -23278,7 +22384,6 @@ GameObject:
   - component: {fileID: 1302184445}
   - component: {fileID: 1302184446}
   - component: {fileID: 1302184447}
-  - component: {fileID: 1302184448}
   m_Layer: 0
   m_Name: Paris Frankfurt Twin
   m_TagString: Untagged
@@ -23334,19 +22439,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1302184448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1302184444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1306098822
 GameObject:
   m_ObjectHideFlags: 0
@@ -24433,9 +23525,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1374016443}
+  - component: {fileID: 1374016444}
   - component: {fileID: 1374016445}
-  - component: {fileID: 1374016446}
-  - component: {fileID: 1374016447}
   m_Layer: 0
   m_Name: FrankFurt Berlin Twin
   m_TagString: Untagged
@@ -24461,6 +23552,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1374016444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374016442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1374016445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24473,37 +23576,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 254647064}
-  endPoint: {fileID: 1192687720}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 3
-  requiredTrainCars: 3
-  pointsReward: 4
---- !u!114 &1374016446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374016442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1374016447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374016442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &1376532182
 GameObject:
   m_ObjectHideFlags: 0
@@ -25163,7 +24241,6 @@ GameObject:
   - component: {fileID: 1409566280}
   - component: {fileID: 1409566281}
   - component: {fileID: 1409566282}
-  - component: {fileID: 1409566283}
   m_Layer: 0
   m_Name: Eevastopol Erzurum
   m_TagString: Untagged
@@ -25221,19 +24298,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1409566283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1409566279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1409626702
 GameObject:
   m_ObjectHideFlags: 0
@@ -25757,7 +24821,6 @@ GameObject:
   - component: {fileID: 1429450606}
   - component: {fileID: 1429450607}
   - component: {fileID: 1429450608}
-  - component: {fileID: 1429450609}
   m_Layer: 0
   m_Name: Frankfurt Munchen
   m_TagString: Untagged
@@ -25812,19 +24875,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1429450609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429450605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1438275081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
@@ -26083,7 +25133,6 @@ GameObject:
   - component: {fileID: 1455076544}
   - component: {fileID: 1455076545}
   - component: {fileID: 1455076546}
-  - component: {fileID: 1455076547}
   m_Layer: 0
   m_Name: Marseille Pampelona
   m_TagString: Untagged
@@ -26140,19 +25189,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1455076547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455076543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1461431801
 GameObject:
   m_ObjectHideFlags: 0
@@ -26813,7 +25849,6 @@ GameObject:
   - component: {fileID: 1483110312}
   - component: {fileID: 1483110313}
   - component: {fileID: 1483110314}
-  - component: {fileID: 1483110315}
   m_Layer: 0
   m_Name: Paris Brux
   m_TagString: Untagged
@@ -26868,19 +25903,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1483110315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483110311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1484460622
 GameObject:
   m_ObjectHideFlags: 0
@@ -26950,7 +25972,6 @@ GameObject:
   - component: {fileID: 1486274415}
   - component: {fileID: 1486274416}
   - component: {fileID: 1486274417}
-  - component: {fileID: 1486274418}
   m_Layer: 0
   m_Name: Berlin Wein
   m_TagString: Untagged
@@ -26983,7 +26004,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486274414}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b7937a254dd74f4eb9c6fc4e6e66a99, type: 3}
   m_Name: 
@@ -27000,25 +26021,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 1192687720}
-  endPoint: {fileID: 1447580123}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 3
-  requiredTrainCars: 3
-  pointsReward: 4
---- !u!114 &1486274418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486274414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &1496522819
 GameObject:
   m_ObjectHideFlags: 0
@@ -27030,7 +26038,6 @@ GameObject:
   - component: {fileID: 1496522820}
   - component: {fileID: 1496522821}
   - component: {fileID: 1496522822}
-  - component: {fileID: 1496522823}
   m_Layer: 0
   m_Name: Petrograd Moskva
   m_TagString: Untagged
@@ -27087,19 +26094,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1496522823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496522819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1499552760
 GameObject:
   m_ObjectHideFlags: 0
@@ -27671,7 +26665,6 @@ GameObject:
   - component: {fileID: 1530657484}
   - component: {fileID: 1530657485}
   - component: {fileID: 1530657486}
-  - component: {fileID: 1530657487}
   m_Layer: 0
   m_Name: Warsaw Kyiv
   m_TagString: Untagged
@@ -27723,25 +26716,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 786665847}
-  endPoint: {fileID: 1836047859}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 4
-  requiredTrainCars: 4
-  pointsReward: 7
---- !u!114 &1530657487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530657483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &1536608190
 GameObject:
   m_ObjectHideFlags: 0
@@ -27878,7 +26858,6 @@ GameObject:
   - component: {fileID: 1564666624}
   - component: {fileID: 1564666625}
   - component: {fileID: 1564666626}
-  - component: {fileID: 1564666627}
   m_Layer: 0
   m_Name: Brindisi Roma
   m_TagString: Untagged
@@ -27933,19 +26912,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1564666627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564666623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1565819975
 GameObject:
   m_ObjectHideFlags: 0
@@ -28142,7 +27108,6 @@ GameObject:
   - component: {fileID: 1577023178}
   - component: {fileID: 1577023179}
   - component: {fileID: 1577023180}
-  - component: {fileID: 1577023181}
   m_Layer: 0
   m_Name: Danzic Warsaw
   m_TagString: Untagged
@@ -28198,19 +27163,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1577023181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577023177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1578309136
 GameObject:
   m_ObjectHideFlags: 0
@@ -28454,7 +27406,6 @@ GameObject:
   - component: {fileID: 1599725415}
   - component: {fileID: 1599725416}
   - component: {fileID: 1599725417}
-  - component: {fileID: 1599725418}
   m_Layer: 0
   m_Name: Kharkov Rostov
   m_TagString: Untagged
@@ -28509,19 +27460,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1599725418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599725414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1600123835
 GameObject:
   m_ObjectHideFlags: 0
@@ -28903,7 +27841,6 @@ GameObject:
   - component: {fileID: 1608804979}
   - component: {fileID: 1608804980}
   - component: {fileID: 1608804981}
-  - component: {fileID: 1608804982}
   m_Layer: 0
   m_Name: Wilno Smolensk
   m_TagString: Untagged
@@ -28959,19 +27896,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1608804982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1608804978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1611006573
 GameObject:
   m_ObjectHideFlags: 0
@@ -29447,7 +28371,6 @@ GameObject:
   - component: {fileID: 1642403271}
   - component: {fileID: 1642403272}
   - component: {fileID: 1642403273}
-  - component: {fileID: 1642403274}
   m_Layer: 0
   m_Name: Smolensk Kyiv
   m_TagString: Untagged
@@ -29503,19 +28426,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1642403274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1642403270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1651375746
 GameObject:
   m_ObjectHideFlags: 0
@@ -29643,7 +28553,6 @@ GameObject:
   - component: {fileID: 1656160347}
   - component: {fileID: 1656160348}
   - component: {fileID: 1656160349}
-  - component: {fileID: 1656160350}
   m_Layer: 0
   m_Name: Cadiz Lisboa
   m_TagString: Untagged
@@ -29698,19 +28607,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1656160350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656160346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1656601576
 GameObject:
   m_ObjectHideFlags: 0
@@ -31087,7 +29983,6 @@ GameObject:
   - component: {fileID: 1720332475}
   - component: {fileID: 1720332476}
   - component: {fileID: 1720332477}
-  - component: {fileID: 1720332478}
   m_Layer: 0
   m_Name: Athina Sarajevo
   m_TagString: Untagged
@@ -31167,19 +30062,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1720332478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720332473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1723423856
 GameObject:
   m_ObjectHideFlags: 0
@@ -31459,7 +30341,6 @@ GameObject:
   - component: {fileID: 1742961791}
   - component: {fileID: 1742961792}
   - component: {fileID: 1742961793}
-  - component: {fileID: 1742961794}
   m_Layer: 0
   m_Name: Kobenhaven Stockholm Twin
   m_TagString: Untagged
@@ -31515,19 +30396,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1742961794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742961790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1743564847
 GameObject:
   m_ObjectHideFlags: 0
@@ -31540,7 +30408,6 @@ GameObject:
   - component: {fileID: 1743564849}
   - component: {fileID: 1743564850}
   - component: {fileID: 1743564851}
-  - component: {fileID: 1743564852}
   m_Layer: 0
   m_Name: Brindisi Athina
   m_TagString: Untagged
@@ -31623,19 +30490,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1743564852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1743564847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1747219851
 GameObject:
   m_ObjectHideFlags: 0
@@ -32138,7 +30992,6 @@ GameObject:
   - component: {fileID: 1774769559}
   - component: {fileID: 1774769560}
   - component: {fileID: 1774769561}
-  - component: {fileID: 1774769562}
   m_Layer: 0
   m_Name: Budapest Bucuresti
   m_TagString: Untagged
@@ -32196,19 +31049,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1774769562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1774769558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1776219332
 GameObject:
   m_ObjectHideFlags: 0
@@ -33708,7 +32548,6 @@ GameObject:
   - component: {fileID: 1836681587}
   - component: {fileID: 1836681589}
   - component: {fileID: 1836681588}
-  - component: {fileID: 1836681590}
   m_Layer: 0
   m_Name: Wein Budapest
   m_TagString: Untagged
@@ -33762,19 +32601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec1cf0d3cc63f1a42a6e450f82b0824f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1836681590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1836681586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1840282262
 GameObject:
   m_ObjectHideFlags: 0
@@ -33845,7 +32671,6 @@ GameObject:
   - component: {fileID: 1841437023}
   - component: {fileID: 1841437024}
   - component: {fileID: 1841437025}
-  - component: {fileID: 1841437026}
   m_Layer: 0
   m_Name: Roma Pallermo
   m_TagString: Untagged
@@ -33928,19 +32753,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1841437026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841437021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1842332051
 GameObject:
   m_ObjectHideFlags: 0
@@ -33952,7 +32764,6 @@ GameObject:
   - component: {fileID: 1842332052}
   - component: {fileID: 1842332053}
   - component: {fileID: 1842332054}
-  - component: {fileID: 1842332055}
   m_Layer: 0
   m_Name: Athina Smyrna
   m_TagString: Untagged
@@ -34008,19 +32819,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1842332055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1842332051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1849770031
 GameObject:
   m_ObjectHideFlags: 0
@@ -34812,6 +33610,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887424778}
   m_CullTransparentMesh: 1
+--- !u!4 &1893250938 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1913269558999781650, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
+  m_PrefabInstance: {fileID: 1680675016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1895051789
 GameObject:
   m_ObjectHideFlags: 0
@@ -34868,7 +33671,6 @@ GameObject:
   - component: {fileID: 1898290183}
   - component: {fileID: 1898290184}
   - component: {fileID: 1898290185}
-  - component: {fileID: 1898290186}
   m_Layer: 0
   m_Name: Madrid Barcelona
   m_TagString: Untagged
@@ -34923,19 +33725,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1898290186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898290182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1901346148
 GameObject:
   m_ObjectHideFlags: 0
@@ -34947,7 +33736,6 @@ GameObject:
   - component: {fileID: 1901346149}
   - component: {fileID: 1901346150}
   - component: {fileID: 1901346151}
-  - component: {fileID: 1901346152}
   m_Layer: 0
   m_Name: Ancora Constantinople
   m_TagString: Untagged
@@ -35003,19 +33791,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1901346152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901346148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1908807234
 GameObject:
   m_ObjectHideFlags: 0
@@ -35085,7 +33860,6 @@ GameObject:
   - component: {fileID: 1911915804}
   - component: {fileID: 1911915805}
   - component: {fileID: 1911915806}
-  - component: {fileID: 1911915807}
   m_Layer: 0
   m_Name: Berlin Warsaw Twin
   m_TagString: Untagged
@@ -35136,25 +33910,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 1192687720}
-  endPoint: {fileID: 786665847}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 4
-  requiredTrainCars: 4
-  pointsReward: 7
---- !u!114 &1911915807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911915803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &1914847885
 GameObject:
   m_ObjectHideFlags: 0
@@ -35166,7 +33927,6 @@ GameObject:
   - component: {fileID: 1914847886}
   - component: {fileID: 1914847887}
   - component: {fileID: 1914847888}
-  - component: {fileID: 1914847889}
   m_Layer: 0
   m_Name: Zurich Venezia
   m_TagString: Untagged
@@ -35221,19 +33981,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &1914847889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914847885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1917085258
 GameObject:
   m_ObjectHideFlags: 0
@@ -35603,7 +34350,6 @@ GameObject:
   - component: {fileID: 1947613626}
   - component: {fileID: 1947613627}
   - component: {fileID: 1947613628}
-  - component: {fileID: 1947613629}
   m_Layer: 0
   m_Name: Warsaw Wein
   m_TagString: Untagged
@@ -35654,25 +34400,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 786665847}
-  endPoint: {fileID: 1447580123}
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
   routeWidth: 0.5
-  routeLength: 4
-  requiredTrainCars: 4
-  pointsReward: 7
---- !u!114 &1947613629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947613625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
+  routeLength: 10
+  requiredTrainCars: 0
+  pointsReward: 0
 --- !u!1 &1948283651
 GameObject:
   m_ObjectHideFlags: 0
@@ -36233,7 +34966,6 @@ GameObject:
   - component: {fileID: 1981918383}
   - component: {fileID: 1981918384}
   - component: {fileID: 1981918385}
-  - component: {fileID: 1981918386}
   m_Layer: 0
   m_Name: Eevastopol Constantinople
   m_TagString: Untagged
@@ -36291,19 +35023,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1981918386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981918382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1982251275
 GameObject:
   m_ObjectHideFlags: 0
@@ -36393,7 +35112,6 @@ GameObject:
   - component: {fileID: 1982839850}
   - component: {fileID: 1982839851}
   - component: {fileID: 1982839852}
-  - component: {fileID: 1982839853}
   m_Layer: 0
   m_Name: Sofia Athina
   m_TagString: Untagged
@@ -36449,19 +35167,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &1982839853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982839849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1985897099
 GameObject:
   m_ObjectHideFlags: 0
@@ -36473,7 +35178,6 @@ GameObject:
   - component: {fileID: 1985897100}
   - component: {fileID: 1985897101}
   - component: {fileID: 1985897102}
-  - component: {fileID: 1985897103}
   m_Layer: 0
   m_Name: Rostov Eevastopol
   m_TagString: Untagged
@@ -36531,19 +35235,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &1985897103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985897099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &1994661755
 GameObject:
   m_ObjectHideFlags: 0
@@ -36951,7 +35642,6 @@ GameObject:
   - component: {fileID: 2007600104}
   - component: {fileID: 2007600105}
   - component: {fileID: 2007600106}
-  - component: {fileID: 2007600107}
   m_Layer: 0
   m_Name: Brux Frankfurt
   m_TagString: Untagged
@@ -37006,19 +35696,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &2007600107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007600103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &2007726901
 GameObject:
   m_ObjectHideFlags: 0
@@ -37989,7 +36666,6 @@ GameObject:
   - component: {fileID: 2039552848}
   - component: {fileID: 2039552849}
   - component: {fileID: 2039552850}
-  - component: {fileID: 2039552851}
   m_Layer: 0
   m_Name: Rica Petrograd
   m_TagString: Untagged
@@ -38047,19 +36723,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &2039552851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2039552847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &2039688052
 GameObject:
   m_ObjectHideFlags: 0
@@ -39040,7 +37703,6 @@ GameObject:
   - component: {fileID: 2087968253}
   - component: {fileID: 2087968254}
   - component: {fileID: 2087968255}
-  - component: {fileID: 2087968256}
   m_Layer: 0
   m_Name: Bucuresti Constantinople
   m_TagString: Untagged
@@ -39096,19 +37758,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &2087968256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2087968252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &2088970921
 GameObject:
   m_ObjectHideFlags: 0
@@ -39553,7 +38202,6 @@ GameObject:
   - component: {fileID: 2109090616}
   - component: {fileID: 2109090617}
   - component: {fileID: 2109090618}
-  - component: {fileID: 2109090619}
   m_Layer: 0
   m_Name: Kyiv Kharkov
   m_TagString: Untagged
@@ -39611,19 +38259,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &2109090619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109090615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &2114287449
 GameObject:
   m_ObjectHideFlags: 0
@@ -39635,7 +38270,6 @@ GameObject:
   - component: {fileID: 2114287450}
   - component: {fileID: 2114287451}
   - component: {fileID: 2114287452}
-  - component: {fileID: 2114287453}
   m_Layer: 0
   m_Name: Amsterdam Essen
   m_TagString: Untagged
@@ -39691,19 +38325,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &2114287453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114287449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &2114696192
 GameObject:
   m_ObjectHideFlags: 0
@@ -40143,7 +38764,6 @@ GameObject:
   - component: {fileID: 2128176063}
   - component: {fileID: 2128176064}
   - component: {fileID: 2128176065}
-  - component: {fileID: 2128176066}
   m_Layer: 0
   m_Name: Berlin Danzic
   m_TagString: Untagged
@@ -40201,19 +38821,6 @@ MonoBehaviour:
   routeLength: 4
   requiredTrainCars: 4
   pointsReward: 7
---- !u!114 &2128176066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128176062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!4 &2131459932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6316556162555149439, guid: 1ec9b8f60ec08f642b1bddd23382f703, type: 3}
@@ -40374,7 +38981,6 @@ GameObject:
   - component: {fileID: 2141394166}
   - component: {fileID: 2141394167}
   - component: {fileID: 2141394168}
-  - component: {fileID: 2141394169}
   m_Layer: 0
   m_Name: Kobenhaven Stockholm
   m_TagString: Untagged
@@ -40430,19 +39036,6 @@ MonoBehaviour:
   routeLength: 3
   requiredTrainCars: 3
   pointsReward: 4
---- !u!114 &2141394169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141394165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &2142988323
 GameObject:
   m_ObjectHideFlags: 0
@@ -40452,9 +39045,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2142988324}
+  - component: {fileID: 2142988325}
   - component: {fileID: 2142988326}
-  - component: {fileID: 2142988327}
-  - component: {fileID: 2142988328}
   m_Layer: 0
   m_Name: Roma Venezia
   m_TagString: Untagged
@@ -40479,6 +39071,18 @@ Transform:
   m_Father: {fileID: 494906846}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2142988325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142988323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2142988326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40497,31 +39101,6 @@ MonoBehaviour:
   routeLength: 2
   requiredTrainCars: 2
   pointsReward: 2
---- !u!114 &2142988327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142988323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0088f83e979b5448ef9f5257b68b63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2142988328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142988323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRouteClaimed: 0
 --- !u!1 &2146818984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2345431096028395432, guid: fbde02c5eee66b94eabc47cc21e06120, type: 3}
