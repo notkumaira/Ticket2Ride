@@ -504,9 +504,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &33523431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,9 +1532,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &78299219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,9 +1672,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &84485094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,9 +1873,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &86940162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2186,9 +2186,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &112314667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2541,9 +2541,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &148559652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2972,7 +2972,6 @@ GameObject:
   - component: {fileID: 209049712}
   - component: {fileID: 209049713}
   - component: {fileID: 209049715}
-  - component: {fileID: 209049714}
   m_Layer: 0
   m_Name: Kyiv Budapest
   m_TagString: Untagged
@@ -3029,22 +3028,6 @@ MonoBehaviour:
   startPoint: {fileID: 1836047859}
   endPoint: {fileID: 2038537636}
   routeWidth: 0.5
---- !u!114 &209049714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209049710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b749c743a0974ea486453a4cbb323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
 --- !u!114 &209049715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3058,9 +3041,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &212063339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3311,9 +3294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &233515081
 GameObject:
   m_ObjectHideFlags: 0
@@ -4591,9 +4574,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &329148537
 GameObject:
   m_ObjectHideFlags: 0
@@ -5152,9 +5135,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &344454809
 GameObject:
   m_ObjectHideFlags: 0
@@ -5782,9 +5765,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &361489593
 GameObject:
   m_ObjectHideFlags: 0
@@ -6016,8 +5999,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900dddf039c24c4c84f3da86ff9a84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  endPoint: {fileID: 0}
+  startPoint: {fileID: 967271506}
+  endPoint: {fileID: 574736378}
   routeWidth: 0.5
 --- !u!114 &387946488
 MonoBehaviour:
@@ -6032,9 +6015,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &405398904
 GameObject:
   m_ObjectHideFlags: 0
@@ -6420,9 +6403,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &422408472
 GameObject:
   m_ObjectHideFlags: 0
@@ -6502,9 +6485,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &429405159
 GameObject:
   m_ObjectHideFlags: 0
@@ -6810,9 +6793,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &439641394
 GameObject:
   m_ObjectHideFlags: 0
@@ -7305,9 +7288,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &468125877
 GameObject:
   m_ObjectHideFlags: 0
@@ -7411,9 +7394,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &471014699
 GameObject:
   m_ObjectHideFlags: 0
@@ -7491,9 +7474,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &474268105
 GameObject:
   m_ObjectHideFlags: 0
@@ -7572,9 +7555,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &481895562
 GameObject:
   m_ObjectHideFlags: 0
@@ -7679,9 +7662,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &485813887
 GameObject:
   m_ObjectHideFlags: 0
@@ -8967,9 +8950,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &550140895
 GameObject:
   m_ObjectHideFlags: 0
@@ -9103,9 +9086,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &555938153
 GameObject:
   m_ObjectHideFlags: 0
@@ -9356,9 +9339,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &565795253
 GameObject:
   m_ObjectHideFlags: 0
@@ -9552,9 +9535,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &574736377
 GameObject:
   m_ObjectHideFlags: 0
@@ -9880,9 +9863,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &593764682
 GameObject:
   m_ObjectHideFlags: 0
@@ -10080,9 +10063,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &607782404
 GameObject:
   m_ObjectHideFlags: 0
@@ -10246,9 +10229,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &624208675
 GameObject:
   m_ObjectHideFlags: 0
@@ -10326,9 +10309,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &636404112
 GameObject:
   m_ObjectHideFlags: 0
@@ -10775,9 +10758,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &669352555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10854,9 +10837,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &670652775
 GameObject:
   m_ObjectHideFlags: 0
@@ -10992,9 +10975,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &674988673
 GameObject:
   m_ObjectHideFlags: 0
@@ -11493,9 +11476,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &694129562
 GameObject:
   m_ObjectHideFlags: 0
@@ -11631,9 +11614,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &697778994
 GameObject:
   m_ObjectHideFlags: 0
@@ -11819,9 +11802,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &705496979
 GameObject:
   m_ObjectHideFlags: 0
@@ -11987,9 +11970,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &711466038
 GameObject:
   m_ObjectHideFlags: 0
@@ -12310,9 +12293,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &722598775
 GameObject:
   m_ObjectHideFlags: 0
@@ -12675,9 +12658,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &727185926
 GameObject:
   m_ObjectHideFlags: 0
@@ -13010,9 +12993,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &737004612
 GameObject:
   m_ObjectHideFlags: 0
@@ -13146,9 +13129,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &741314403
 GameObject:
   m_ObjectHideFlags: 0
@@ -13227,9 +13210,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &742316456
 GameObject:
   m_ObjectHideFlags: 0
@@ -13306,9 +13289,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &749283367
 GameObject:
   m_ObjectHideFlags: 0
@@ -13507,7 +13490,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755653558}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f30d169866f922941ac2808fea44efe9, type: 3}
   m_Name: 
@@ -13849,9 +13832,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &782729619
 GameObject:
   m_ObjectHideFlags: 0
@@ -14646,9 +14629,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &811319939
 GameObject:
   m_ObjectHideFlags: 0
@@ -14725,9 +14708,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &813267446
 GameObject:
   m_ObjectHideFlags: 0
@@ -14921,9 +14904,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &825998435
 GameObject:
   m_ObjectHideFlags: 0
@@ -15128,9 +15111,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!4 &828858954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7321112321872940973, guid: 5be8548b99c0f9a42b711b3b305517a1, type: 3}
@@ -15345,9 +15328,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &840311309
 GameObject:
   m_ObjectHideFlags: 0
@@ -15668,9 +15651,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &862303038
 GameObject:
   m_ObjectHideFlags: 0
@@ -16045,9 +16028,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &892337316
 GameObject:
   m_ObjectHideFlags: 0
@@ -16294,9 +16277,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!4 &899044821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1913269557641516802, guid: 9bf4bdd30ab6a9446bc71fb62f9bc10c, type: 3}
@@ -16378,9 +16361,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &906972243
 GameObject:
   m_ObjectHideFlags: 0
@@ -16457,9 +16440,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &907074711
 GameObject:
   m_ObjectHideFlags: 0
@@ -16723,9 +16706,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &910638500
 GameObject:
   m_ObjectHideFlags: 0
@@ -17578,9 +17561,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &948840089
 GameObject:
   m_ObjectHideFlags: 0
@@ -17786,9 +17769,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &961532073
 GameObject:
   m_ObjectHideFlags: 0
@@ -18779,9 +18762,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1039192552
 GameObject:
   m_ObjectHideFlags: 0
@@ -18975,9 +18958,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1048467215
 GameObject:
   m_ObjectHideFlags: 0
@@ -19055,9 +19038,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1051742141
 GameObject:
   m_ObjectHideFlags: 0
@@ -20187,9 +20170,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1129058571
 GameObject:
   m_ObjectHideFlags: 0
@@ -20832,9 +20815,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1170128074
 GameObject:
   m_ObjectHideFlags: 0
@@ -21276,9 +21259,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1186283880
 GameObject:
   m_ObjectHideFlags: 0
@@ -21969,9 +21952,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1215119971
 GameObject:
   m_ObjectHideFlags: 0
@@ -22566,9 +22549,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1268210465
 GameObject:
   m_ObjectHideFlags: 0
@@ -23326,9 +23309,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1306098822
 GameObject:
   m_ObjectHideFlags: 0
@@ -24483,9 +24466,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1376532182
 GameObject:
   m_ObjectHideFlags: 0
@@ -25213,9 +25196,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1409626702
 GameObject:
   m_ObjectHideFlags: 0
@@ -25804,9 +25787,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1438275081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
@@ -26132,9 +26115,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1461431801
 GameObject:
   m_ObjectHideFlags: 0
@@ -26860,9 +26843,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1484460622
 GameObject:
   m_ObjectHideFlags: 0
@@ -26998,9 +26981,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1496522819
 GameObject:
   m_ObjectHideFlags: 0
@@ -27079,9 +27062,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1499552760
 GameObject:
   m_ObjectHideFlags: 0
@@ -27721,61 +27704,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
---- !u!1 &1536608190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1536608192}
-  - component: {fileID: 1536608191}
-  m_Layer: 0
-  m_Name: TrainCarManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1536608191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1536608190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a4bc7e0f96f26408f5d9fc9b20276e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player1Cars: {fileID: 645078590}
-  player2Cars: {fileID: 1946204550}
-  winScreen: {fileID: 2066048145}
-  isPlayer1Active: 1
-  player1LongestRouteLength: 0
-  player2LongestRouteLength: 0
-  player1CarCount: 0
-  player2CarCount: 0
---- !u!4 &1536608192
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1536608190}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.29, y: -4.14, z: 0.22225714}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1538549199
 GameObject:
   m_ObjectHideFlags: 0
@@ -27929,9 +27860,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1565819975
 GameObject:
   m_ObjectHideFlags: 0
@@ -28194,9 +28125,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1578309136
 GameObject:
   m_ObjectHideFlags: 0
@@ -28505,9 +28436,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1600123835
 GameObject:
   m_ObjectHideFlags: 0
@@ -28955,9 +28886,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1611006573
 GameObject:
   m_ObjectHideFlags: 0
@@ -29499,9 +29430,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1651375746
 GameObject:
   m_ObjectHideFlags: 0
@@ -29694,9 +29625,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1656601576
 GameObject:
   m_ObjectHideFlags: 0
@@ -31163,9 +31094,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1723423856
 GameObject:
   m_ObjectHideFlags: 0
@@ -31511,9 +31442,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1743564847
 GameObject:
   m_ObjectHideFlags: 0
@@ -31619,9 +31550,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1747219851
 GameObject:
   m_ObjectHideFlags: 0
@@ -32192,9 +32123,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1776219332
 GameObject:
   m_ObjectHideFlags: 0
@@ -33758,9 +33689,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1840282262
 GameObject:
   m_ObjectHideFlags: 0
@@ -33924,9 +33855,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1842332051
 GameObject:
   m_ObjectHideFlags: 0
@@ -34004,9 +33935,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1849770031
 GameObject:
   m_ObjectHideFlags: 0
@@ -34134,6 +34065,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 13, y: 5.5}
   m_EdgeRadius: 0
+--- !u!1 &1850671898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1850671899}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1850671899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850671898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -3.88, z: -0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1851772970
 GameObject:
   m_ObjectHideFlags: 0
@@ -34919,9 +34881,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1901346148
 GameObject:
   m_ObjectHideFlags: 0
@@ -34999,9 +34961,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1908807234
 GameObject:
   m_ObjectHideFlags: 0
@@ -35138,9 +35100,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1914847885
 GameObject:
   m_ObjectHideFlags: 0
@@ -35217,9 +35179,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1917085258
 GameObject:
   m_ObjectHideFlags: 0
@@ -35656,9 +35618,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1948283651
 GameObject:
   m_ObjectHideFlags: 0
@@ -36287,9 +36249,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1982251275
 GameObject:
   m_ObjectHideFlags: 0
@@ -36445,9 +36407,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1985897099
 GameObject:
   m_ObjectHideFlags: 0
@@ -36527,9 +36489,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &1994661755
 GameObject:
   m_ObjectHideFlags: 0
@@ -37002,9 +36964,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &2007726901
 GameObject:
   m_ObjectHideFlags: 0
@@ -38043,9 +38005,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &2039688052
 GameObject:
   m_ObjectHideFlags: 0
@@ -39092,9 +39054,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &2088970921
 GameObject:
   m_ObjectHideFlags: 0
@@ -39607,9 +39569,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &2114287449
 GameObject:
   m_ObjectHideFlags: 0
@@ -39687,9 +39649,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &2114696192
 GameObject:
   m_ObjectHideFlags: 0
@@ -40197,9 +40159,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!4 &2131459932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6316556162555149439, guid: 1ec9b8f60ec08f642b1bddd23382f703, type: 3}
@@ -40426,9 +40388,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &2142988323
 GameObject:
   m_ObjectHideFlags: 0
@@ -40505,9 +40467,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1Active: 1
-  player1Cars: {fileID: 0}
-  player2Cars: {fileID: 0}
-  trainCarManager: {fileID: 0}
+  player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1 &2146818984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2345431096028395432, guid: fbde02c5eee66b94eabc47cc21e06120, type: 3}
@@ -41270,6 +41232,135 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 137938510c37863449a0b1ea90c65924, type: 3}
+--- !u!1001 &8273287814730247561
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: winScreen
+      value: 
+      objectReference: {fileID: 2066048145}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: player1Cars
+      value: 
+      objectReference: {fileID: 1438275081}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: player2Cars
+      value: 
+      objectReference: {fileID: 1946204550}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: maxDeviation
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: trainCarPrefab
+      value: 
+      objectReference: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: player1CarCount
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: player2CarCount
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: spawnPosition.x
+      value: -6.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: spawnPosition.y
+      value: -4.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: spawnPosition.z
+      value: 0.2222571
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: trainCarPrefab1
+      value: 
+      objectReference: {fileID: 1438275081}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: trainCarPrefab2
+      value: 
+      objectReference: {fileID: 1946204550}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: numberOfTrainCars
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: scatterPosition.x
+      value: -6.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: scatterPosition.y
+      value: -3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: scatterPosition.z
+      value: 0.2222571
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: player1TrainCarPrefab
+      value: 
+      objectReference: {fileID: 1438275081}
+    - target: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: player2TrainCarPrefab
+      value: 
+      objectReference: {fileID: 1946204550}
+    - target: {fileID: 8273287815945955895, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_Name
+      value: TrainCarManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.22225714
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273287815945955913, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
 --- !u!1001 &8834463219963589277
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -11,14 +11,26 @@ public class TrainCarManager : MonoBehaviour
     public int player1LongestRouteLength = 0;
     public int player2LongestRouteLength = 0;
 
-    public int player1CarCount = 0; // Renamed variable
+    public int player1CarCount = 0;
     public int player2CarCount = 0;
+
+    public GameObject player1TrainCarPrefab;
+    public GameObject player2TrainCarPrefab;
+    public int numberOfTrainCars = 10;
+    public Vector3 scatterPosition;
+    public float maxDeviation = 0.5f;
+
+    private GameObject[] trainCars;
 
     private void Start()
     {
         ActivatePlayerCars(player1Cars);
         DeactivatePlayerCars(player2Cars);
         winScreen.SetActive(false);
+
+        trainCars = new GameObject[numberOfTrainCars];
+
+        ScatterTrainCars();
     }
 
     private void Update()
@@ -37,6 +49,8 @@ public class TrainCarManager : MonoBehaviour
             }
 
             isPlayer1Active = !isPlayer1Active;
+
+            ScatterTrainCars();
         }
     }
 
@@ -83,7 +97,6 @@ public class TrainCarManager : MonoBehaviour
             }
             else
             {
-                // Points are equal, check for longest route
                 int player1RouteLength = CalculateLongestRouteLength(player1Cars);
                 int player2RouteLength = CalculateLongestRouteLength(player2Cars);
 
@@ -185,5 +198,27 @@ public class TrainCarManager : MonoBehaviour
     private void DeactivatePlayerCars(GameObject group)
     {
         group.SetActive(false);
+    }
+    private void ScatterTrainCars()
+    {
+        foreach (GameObject trainCar in trainCars)
+        {
+            if (trainCar != null)
+            {
+                Destroy(trainCar);
+            }
+        }
+
+        GameObject trainCarPrefab = isPlayer1Active ? player1TrainCarPrefab : player2TrainCarPrefab;
+
+        for (int i = 0; i < numberOfTrainCars; i++)
+        {
+            Vector3 randomDeviation = new Vector3(Random.Range(-maxDeviation, maxDeviation), Random.Range(-maxDeviation, maxDeviation), Random.Range(-maxDeviation, maxDeviation));
+            Vector3 spawnPosition = scatterPosition + randomDeviation;
+
+            GameObject trainCar = Instantiate(trainCarPrefab, spawnPosition, Quaternion.identity);
+            trainCar.transform.SetParent(transform);
+            trainCars[i] = trainCar;
+        }
     }
 }

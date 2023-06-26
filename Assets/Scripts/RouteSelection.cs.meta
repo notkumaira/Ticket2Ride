@@ -3,7 +3,10 @@ guid: 7c0b749c743a0974ea486453a4cbb323
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player1Cars: {fileID: 176465621667374223, guid: 7179cc1be3aec5a499d7634f5b314c85, type: 3}
+  - player2Cars: {fileID: 8350822937224629173, guid: 8bb96852c172b6b4d853759877358d53, type: 3}
+  - trainCarManager: {fileID: 8273287815945955894, guid: 6750a76e0751ca94bb975515e8d9486e, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
