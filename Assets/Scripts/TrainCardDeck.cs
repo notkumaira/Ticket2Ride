@@ -155,6 +155,7 @@ public class TrainCardDeck : MonoBehaviour
             Transform handPosition = handParent.GetChild(handIndex);
             card.transform.position = handPosition.position;
             card.transform.rotation = handPosition.rotation;
+            card.gameObject.SetActive(true); // Ensure the card is active
         }
 
         hand.Add(card);
@@ -164,19 +165,29 @@ public class TrainCardDeck : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
+
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
             if (hit.collider != null)
             {
                 TrainCard clickedCard = hit.collider.GetComponent<TrainCard>();
-                if (player1Hand.Contains(clickedCard))
+                if (clickedCard != null)
                 {
-                    // Handle the click on train card for player 1
-                    Debug.Log("Player 1 Train Card Clicked");
-                }
-                else if (player2Hand.Contains(clickedCard))
-                {
-                    // Handle the click on train card for player 2
-                    Debug.Log("Player 2 Train Card Clicked");
+                    if (player1Hand.Contains(clickedCard))
+                    {
+                        // Handle the click on train card for player 1
+                        Debug.Log("Player 1 Train Card Clicked");
+                        // Add the card to the active player's hand
+                        MoveCardToHandPosition(clickedCard, player1HandParent, player1Hand);
+                    }
+                    else if (player2Hand.Contains(clickedCard))
+                    {
+                        // Handle the click on train card for player 2
+                        Debug.Log("Player 2 Train Card Clicked");
+                        // Add the card to the active player's hand
+                        MoveCardToHandPosition(clickedCard, player2HandParent, player2Hand);
+                    }
                 }
             }
         }

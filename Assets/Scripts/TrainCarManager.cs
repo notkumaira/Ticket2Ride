@@ -5,14 +5,30 @@ public class TrainCarManager : MonoBehaviour
     public GameObject player1Cars;
     public GameObject player2Cars;
     public GameObject winScreen;
+    public InventorySystem inventorySystem; // Reference to the InventorySystem script
 
     public bool isPlayer1Active = true;
 
     public int player1LongestRouteLength = 0;
     public int player2LongestRouteLength = 0;
 
-    public int player1CarCount = 0; // Renamed variable
+    public int player1CarCount = 0;
     public int player2CarCount = 0;
+
+    private int keyPressCounter = 0;
+    private bool isFirstKeyPress = true;
+    private bool isWaitingForSecondKeyPress = false;
+    private bool isFirstTurn = true;
+
+    public void SetPlayerTurn(bool isPlayer1Active)
+    {
+        this.isPlayer1Active = isPlayer1Active;
+    }
+
+    public bool IsPlayer1Active()
+    {
+        return isPlayer1Active;
+    }
 
     private void Start()
     {
@@ -25,33 +41,20 @@ public class TrainCarManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.T))
         {
-            if (isPlayer1Active)
+            keyPressCounter++;
+
+            if (isFirstTurn && keyPressCounter == 3)
             {
-                DeactivatePlayerCars(player1Cars);
-                ActivatePlayerCars(player2Cars);
+                isFirstTurn = false;
+                keyPressCounter = 0;
+                SwitchPlayerTurn();
             }
-            else
+            else if (!isFirstTurn && keyPressCounter == 2)
             {
-                DeactivatePlayerCars(player2Cars);
-                ActivatePlayerCars(player1Cars);
+                keyPressCounter = 0;
+                SwitchPlayerTurn();
             }
-
-            isPlayer1Active = !isPlayer1Active;
         }
-    }
-
-    public void RouteClaimed()
-    {
-        if (isPlayer1Active)
-        {
-            SubtractTrainCars(player1Cars, CalculateRequiredTrainCars(player1Cars));
-        }
-        else
-        {
-            SubtractTrainCars(player2Cars, CalculateRequiredTrainCars(player2Cars));
-        }
-
-        CheckWinCondition();
     }
 
     public void SubtractTrainCars(GameObject group, int requiredTrainCars)
@@ -83,7 +86,6 @@ public class TrainCarManager : MonoBehaviour
             }
             else
             {
-                // Points are equal, check for longest route
                 int player1RouteLength = CalculateLongestRouteLength(player1Cars);
                 int player2RouteLength = CalculateLongestRouteLength(player2Cars);
 
@@ -185,5 +187,21 @@ public class TrainCarManager : MonoBehaviour
     private void DeactivatePlayerCars(GameObject group)
     {
         group.SetActive(false);
+    }
+
+    private void SwitchPlayerTurn()
+    {
+        if (isPlayer1Active)
+        {
+            DeactivatePlayerCars(player1Cars);
+            ActivatePlayerCars(player2Cars);
+        }
+        else
+        {
+            DeactivatePlayerCars(player2Cars);
+            ActivatePlayerCars(player1Cars);
+        }
+
+        isPlayer1Active = !isPlayer1Active;
     }
 }
